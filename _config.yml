@@ -120,13 +120,13 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: /
+  url: /SocialGraphPage/
 - title: Data source
-  url: dataSource/
+  url: /SocialGraphPage/dataSource/
 - title: Data Analysis
-  url: dataAnalysis/
+  url: /SocialGraphPage/dataAnalysis/
 - title: Notebook
-  url: notebook/
+  url: /SocialGraphPage/notebook/
 
 navigation_footer:
 - title: Created by David Darnes
