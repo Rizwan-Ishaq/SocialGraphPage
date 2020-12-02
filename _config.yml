@@ -123,10 +123,10 @@ navigation_header:
   url: /
 - title: Data source
   url: /dataSource/
-- title: Analysis
-  url: /Data analysis/
+- title: Data Analysis
+  url: / dataAnalysis/
 - title: Notebook
-  url: /Notebook/
+  url: /notebook/
 
 navigation_footer:
 - title: Created by David Darnes
