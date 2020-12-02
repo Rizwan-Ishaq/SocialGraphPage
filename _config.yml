@@ -122,9 +122,9 @@ navigation_header:
 - title: Home
   url: /
 - title: Data source
-  url: /dataSource/
+  url: /dataSource.md
 - title: Data Analysis
-  url: / dataAnalysis/
+  url: /dataAnalysis/
 - title: Notebook
   url: /notebook/
 
