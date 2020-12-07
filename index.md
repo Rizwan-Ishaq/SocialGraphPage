@@ -12,3 +12,4 @@ We have chosen to dig into the vast world of great thinkers throughout history. 
 In addition to that we will look at how, the philosophers have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
 
 
+"https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/phil_banner.png?raw=true"
