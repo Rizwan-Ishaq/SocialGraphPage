@@ -46,7 +46,9 @@ The most prominent themes of this period is, as one would expect, very centered 
 ![image](https://-5000_0_network)
 
 Number of nodes: 53
+
 Number of edges: 90
+
 Average degree: 1.6981
 
 Most influential persons of the period:
@@ -66,7 +68,9 @@ Now, the picture changes (both literally and regarding the data).
 ![image](https://0_500_network)
 
 Number of nodes: 32
+
 Number of edges: 18
+
 Average degree: 0.5625
 
 - Plotinus
@@ -74,6 +78,8 @@ Average degree: 0.5625
 - Pseudo-Dionysius the Areopagite
 
 The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire - names ending with the latin suffix "-us" and quite a lot of persons named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots.
+
+Now, with some working knowledge of western philosophy, one might ask: Where is Augustine of Hippo? He is probably the most renowned person in philosophy and theology from that time. Fear not: with respect to most people influenced throughout history Augustine of Hippo is second highest in this bin, only surpassed by Plotinus.
 
 ## The Islamic Golden Age: Year 500-1000
 
@@ -85,7 +91,9 @@ The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time 
 ![image](https://500_1000_network)
 
 Number of nodes: 7
+
 Number of edges: 2
+
 Average degree: 0.2857
 
 - Al-Farabi
@@ -104,15 +112,17 @@ During this time the Catholic Church has become very prosperous, and teachings o
 ![image](https://1000_1500_network)
 
 Number of nodes: 65
+
 Number of edges: 93
-Average degree:   1.4308
+
+Average degree: 1.4308
 
 - Averroes
 - William of Ockham
 - Thomas Aquinas
 - Avicenna
 
-Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. 
+Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is very renowned.
 
 ## The Renaissance: Year 1500-1600
 
@@ -122,7 +132,9 @@ _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 ![image](https://1500_1600_network)
 
 Number of nodes: 26
+
 Number of edges: 7
+
 Average degree: 0.2692
 
 - Michel de Montaigne
@@ -142,8 +154,10 @@ But that's the science part, we are to continue with the philosophy (even though
 ![image](https://1600_1700_network)
 
 Number of nodes: 41
+
 Number of edges: 35
-Average degree:   0.8537
+
+Average degree: 0.8537
 
 - René Descartes
 - Hugo Grotius
@@ -161,6 +175,19 @@ _Acting as a frame for our wordcloud: Immanuel Kant_
 
 ![image](https://1700_1800_network)
 
+Number of nodes: 68
+
+Number of edges: 72
+
+Average in degree:   1.0588
+
+- Immanuel Kant  10
+- Christian Wolff  10
+- David Hume   9
+- Joseph Butler   8
+- Thomas Paine   7
+- Voltaire   7
+
 ## Industrialization: Year 1800-1900
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1800-1900.png)
@@ -168,6 +195,17 @@ _Acting as a frame for our wordcloud: Industrialization_
 
 
 ![image](https://1800_1900_network)
+
+Number of nodes: 167
+
+Number of edges: 250
+
+Average degree: 1.4970
+
+- William James  18
+- Karl Marx  17
+- Charles Darwin  17
+- John Stuart Mill  16
 
 ## Beginning of Contemporary History: Year 1900-1950
 
@@ -177,6 +215,16 @@ _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase
 
 ![image](https://1900_1950_network)
 
+Number of nodes: 182
+
+Number of edges: 170
+
+Average in degree: 0.9341
+
+- Ludwig Wittgenstein  14
+- Martin Heidegger  11
+- Bertrand Russell  10
+
 ## Current Historic Period: Year 1950 until Now
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1950-2000.png)
@@ -184,6 +232,19 @@ _Acting as a frame for our wordcloud: Technology and Stuff_
 
 ![image](https://1950_2000_network)
 
+Number of nodes: 192
+
+Number of edges: 233
+
+Average in degree: 1.2135
+
+- Hilary Putnam  14
+- Jacques Derrida  14
+- Michel Foucault  13
+- Cornelius Castoriadis  13
+- Louis Althusser  12
+
+This was where my personal knowledge of contemporary philosophy was tested - I'm only familiar with Foucault.
 
 ## Summarizing Remarks
 
