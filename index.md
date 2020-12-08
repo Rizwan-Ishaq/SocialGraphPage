@@ -308,10 +308,10 @@ Something we didn't consider before gathering the data was the language bias of 
 
 
 [xxx] : 
-- [List of Philosophers (A-C)](https://en.wikipedia.org/wiki/Listof_philosophers(A%E2%80%93C) "Philosophers (A-C)")
-- [List of Philosophers (D-H)](https://en.wikipedia.org/wiki/Listof_philosophers(D%E2%80%93H) "Philosophers (D-H)")
-- [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/Listof_philosophers(I%E2%80%93Q) "Philosophers (I-Q)")
-- [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/Listof_philosophers(R%E2%80%93Z) "Philosophers (R-Z)")
+- [List of Philosophers (A-C)](https://en.wikipedia.org/wiki/List_of_philosophers_(A%E2%80%93C) "Philosophers (A-C)")
+- [List of Philosophers (D-H)](https://en.wikipedia.org/wiki/List_of_philosophers_(D%E2%80%93H) "Philosophers (D-H)")
+- [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/List_of_philosophers_(I%E2%80%93Q) "Philosophers (I-Q)")
+- [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/List_of_philosophers-(R%E2%80%93Z) "Philosophers (R-Z)")
 
 [^xxx1] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
 
