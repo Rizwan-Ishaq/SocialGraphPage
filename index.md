@@ -151,7 +151,7 @@ _Acting as a frame for our wordcloud: Isaac Newton's Apple Tree Shone Upon By a 
 This was indeed the century of science. It had already started in the 16th century with Copernicus, followed by Galilei and Kepler and now - propelled by Newton's Principia - a new generation of scientists were to propel the world forward.
 But that's the science part, we are to continue with the philosophy (even though Newton did make it onto the list of persons who has influenced most philosophers in this bin). 
 
-![image](https://1600_1700_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph5_1600_1700.png)
 
 Number of nodes: 41
 
@@ -173,7 +173,7 @@ Regarding philosophers this period is dominated by Rene Descartes. Being the gen
 _Acting as a frame for our wordcloud: Immanuel Kant_
 
 
-![image](https://1700_1800_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png)
 
 Number of nodes: 68
 
@@ -194,7 +194,7 @@ Average in degree:   1.0588
 _Acting as a frame for our wordcloud: Industrialization_
 
 
-![image](https://1800_1900_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png)
 
 Number of nodes: 167
 
@@ -213,7 +213,7 @@ Average degree: 1.4970
 _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase_
 
 
-![image](https://1900_1950_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph8_1900_1950.png)
 
 Number of nodes: 182
 
@@ -230,7 +230,7 @@ Average in degree: 0.9341
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1950-2000.png)
 _Acting as a frame for our wordcloud: Technology and Stuff_
 
-![image](https://1950_2000_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph9_1950_2000_meh.png)
 
 Number of nodes: 192
 
