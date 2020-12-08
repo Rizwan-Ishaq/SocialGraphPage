@@ -44,6 +44,7 @@ _Acting as a frame for our wordcloud: Parthenon_
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true){:height="70px" width="40px"}
+<img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true" width="40" height="79">
 
 Number of nodes: 53 <br>
 Number of edges: 90 <br>
