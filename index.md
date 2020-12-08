@@ -29,6 +29,8 @@ Now, back to the issue of _binning_ this data: If we were to bin the entire data
 Eventually we settled on the (to us) quite aesthethic compromise:
 __10 historic intervals__ which are mostly divided into centuries, with the exclusion of the time before year 1500 AD, which is divided into the intervals of 500 years until year 0, where we have binned the entire ancient philosophy from year 1000 BC to year 0 into one ancient bin. Another exception is the 20th century, which we have divided in "Pre-World War II" and "Post-World War II"; from 1900 to 1950 and 1950 to 2000 respectively.
 
+The philosophers are binned based on "in which historic period, they were half their total age", e.g. if Arthur Schopenhauer, born 1788 and died 1860, were to be assigned a historic bin, he would be "half his full age" in: _(1860-1788)/2 + 1788 = 1824_, thus assigning him to the bin containing philosophers from year 1800 to 1900.
+
 ### Network Analysis
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
@@ -134,7 +136,22 @@ Average degree: 0.2692
 ![image](https://1600_1700_wordcloud)
 _Acting as a frame for our wordcloud: Isaac Newton's Apple Tree Shone Upon By a Full Moon_
 
+This was indeed the century of science. It had already started in the 16th century with Copernicus, followed by Galilei and Kepler and now - propelled by Newton's Principia - a new generation of scientists were to propel the world forward.
+But that's the science part, we are to continue with the philosophy (even though Newton did make it onto the list of persons who has influenced most philosophers in this bin). 
+
 ![image](https://1600_1700_network)
+
+Number of nodes: 41
+Number of edges: 35
+Average degree:   0.8537
+
+- René Descartes
+- Hugo Grotius
+- John Locke
+- Thomas Hobbes
+
+Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all.
+
 
 ## Peak Enlightenment: Year 1700-1800 
 
