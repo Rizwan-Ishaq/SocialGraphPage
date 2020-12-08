@@ -7,7 +7,7 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the anachronological depths of the data.
+Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data.
 
 # Overview
 - [__Introduction__](#introduction)
@@ -32,7 +32,7 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Surprising Discoveries__](#surprising_discoveries)
     - [__Further Reading__](#further_reading)
 - [__The Sentiment of Philosophy Throughout History__](#the_sentiment_of_philosophy_throughout_history)
-- [__Anachronical Communities__](#anachronical_communities)
+- [__Achronological Communities__](#achronological_communities)
 
 
 <h1 id="introduction">Introduction</h1>
@@ -43,7 +43,7 @@ Especially whom the most influential people have been in this development - thos
 
 We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it, in one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
 
-In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created achronological _communities_ in the history of philosophy.
 
 And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may previously have been completely unknown to us.
 
@@ -341,17 +341,17 @@ The top 10 of most influential philosophers throughout time are:
 
 Some of them come across quite clearly as huge planets in the universe of connections: Aristotle and Plato are the two large purple bulbs to the left (the network is designed to have people from way back in the past tend towards the right side, and people from the present tend toward the right). Kant and Marx are the large bulbs in the bottom of the network in green and yellow respectively.
 
-<h3 id="interconnectedness">Interconnectedness</h3>
+<h3 id="interconnectedness">Interconnectedness</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied vividly, but had a general decline. We attribute this to the record keeping and/or education scarcity; only the most influential philosophers got to be remembered by time, and were able to be granted the honor of having a Wikipedia-page - and in times with scarce educational resources, renowned thinkers were more likely to influence one another. Today there has never been more philosophers worthy of a Wikipedia-page alive, but the likelihood of them influencing each other is declining. It's like the strange situation we're facing with regards to reading: never hve there been such a steep decline in people reading books, yet more books are being printed than ever before.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/connected_p.png?raw=true)
 
-<h3 id="an_unexpected_bias">An Unexpected Bias</h3>
+<h3 id="an_unexpected_bias">An Unexpected Bias</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 Something we didn't consider before gathering the data was the language bias of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
 
-<h3 id="surprising_discoveries">Surprising Discoveries</h3>
+<h3 id="surprising_discoveries">Surprising Discoveries</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 Whether or not it was a major discovery, we came to realize that we have disproportionately little knowledge of our contemporary philosophers. Hilary Putnam, Jacques Derrida, Cornelius Castoriadis and Louis Althusser were all unfamiliar names to us.
 
@@ -368,11 +368,10 @@ Concluding on the discoveries, we have made a list of what we now know, we know 
 
 Before we began working on this project we had a theory: We assumed the sentiment of philosophy throughout history would change and that it would change for the worse, i.e. we assumed that the mean value for the sentiment of the texts describing the philosophers would drop as we approached the 20th century (and then perhaps increase a little throughout the 20th century). We 
 
-<h1 id="anachronical_communities">Anachronical Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
+<h1 id="achronological_communities">Achronological Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 
-
-<h3 id="references">References</h3>
+<h3 id="references">References</h3> [^](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 
 [xxx] : 
