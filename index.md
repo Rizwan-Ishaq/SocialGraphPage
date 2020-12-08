@@ -74,22 +74,26 @@ Now, back to the issue of _binning_ this data: If we were to bin the entire data
 Eventually we settled on the (to us) quite aesthethic compromise:
 __10 historic intervals__ which are mostly divided into centuries, with the exclusion of the time before year 1500 AD, which is divided into the intervals of 500 years until year 0, where we have binned the entire ancient philosophy from year 1000 BC to year 0 into one ancient bin. Another exception is the 20th century, which we have divided in "Pre-World War II" and "Post-World War II"; from 1900 to 1950 and 1950 to 2000 respectively.
 
-The philosophers are binned based on "in which historic period, they were half their total age", e.g. if Arthur Schopenhauer, born 1788 and died 1860, were to be assigned a historic bin, he would be "half his full age" in: _(1860-1788)/2 + 1788 = 1824_, thus assigning him to the bin containing philosophers from year 1800 to 1900. We are well aware that this is a somewhat crude division, as some philosophers may have lived several decades in a different century than they were assigned, perhaps even producing some of their most influential works in that century. To cope with this, we have talked about having philosophers 
+The philosophers are binned based on "in which historic period, they were half their total age", e.g. if Arthur Schopenhauer, born 1788 and died 1860, were to be assigned a historic bin, he would be "half his full age" in:
+
+_(1860-1788)/2 + 1788 = 1824_
+
+thus assigning him to the bin containing philosophers from year 1800 to 1900. We are well aware that this is a somewhat crude division, as some philosophers may have lived several decades in a different century than they were assigned, perhaps even producing some of their most influential works in that century. To cope with this, we have talked about having philosophers 
 
 
-<h3 id="network_analysis">Network Analysis</h3>
+<h3 id="network_analysis">Network Analysis</h3> 
 
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
 Without further ado, let's examine the history of philosophy:
 
-<h1 id="the_history_of_philosophy">The History of Philosophy</h1>
+<h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 
-<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2>
+<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
@@ -111,7 +115,7 @@ Most influential persons of the period:
 The number succeeding the name is the degree of the philosopher in this subsection of the whole network. As expected we see a very interwoven network of (predominantly Greek) philosophers with Plato and Aristotle - and Sokrates - as very influential figures.
 
 
-<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2>
+<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/0-500.png?raw=true)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
@@ -133,7 +137,7 @@ The time of the ancient Greek philosophers has peaked, but the Greek presence is
 
 Now, with some working knowledge of western philosophy, one might ask: Where is Augustine of Hippo? He is probably the most renowned person in philosophy and theology from that time. Fear not: with respect to most people influenced throughout history Augustine of Hippo is second highest in this bin, only surpassed by Plotinus.
 
-<h2 id="the_islamic_golden_age">The Islamic Golden Age: Year 500-1000</h2>
+<h2 id="the_islamic_golden_age">The Islamic Golden Age: Year 500-1000</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/500-1000.png?raw=true)
 _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
@@ -153,7 +157,7 @@ Average degree: 0.2857 <br>
 
 As expected all of the (although few) philosophers are from the Arab world (present day Syria, Iraq and Iraq respectively). Compared to the other historic time spans, this is very deprived of philosophers. A reason for this could be a cultural skew of our analysis: we have only analyzed english wikipedia-pages, which will likely have a tendency towards having more elaborate information on persons from the Anglo-Saxon and Western world - and during this time period, the Anglo-Saxon and Western world was not the epicenter of historic progress, mildly speaking.
 
-<h2 id="late_middle_ages">Late Middle Ages: Year 1000-1500</h2>
+<h2 id="late_middle_ages">Late Middle Ages: Year 1000-1500</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1000-1500.png?raw=true)
 _Acting as a frame for our wordcloud: A Cross_
@@ -176,7 +180,7 @@ Yet, the Islamic Golden age is by no means over: Averroes is the latinized versi
 
 With this number of nodes in the network, the visualizations start to become a little difficult to read, but we have made an attempt to have a high enough resolution to at least be able to see the names of the most prominent nodes when zooming in. They should all look pretty decent when zooming in.
 
-<h2 id="the_renaissance">The Renaissance: Year 1500-1600</h2>
+<h2 id="the_renaissance">The Renaissance: Year 1500-1600</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png?raw=true)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
@@ -199,7 +203,7 @@ Of these people only Francis Bacon is familiar to us. Which is somewhat surprisi
 
 Now, having this somewhat limited number of nodes is a result of our _binning_. When considering the distribution of number of philosophers over time, bins that have intervals that decreased exponentially would have made a more even distribution of people in each bin. Our choice of not having bins with steadily increasing intervals and instead having a very sharp shift in the size of the bins (from a period of 500 years to a period of 100 years) is likely to blame for the size of this bin. We have already discussed that in the section __Convenient Binning of the Data__. In hindsight we should perhaps have made a "middle bin", containing for instance the years 1400 to 1600.
 
-<h2 id="the_scientific_revolution">The Scientific Revolution: Year 1600-1700</h2>
+<h2 id="the_scientific_revolution">The Scientific Revolution: Year 1600-1700</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1600-1700.png?raw=true)
 _Acting as a frame for our wordcloud: Isaac Newton's Apple Tree Shone Upon By a Full Moon_
@@ -223,7 +227,7 @@ Average degree: 0.8537 <br>
 Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. One thing that may have settled Descartes' place in the top is his influence on both philosophy and science, as he was involved both. Especially math with regards to science[^xxx3]. Then there is Hugo Grotius, who was a dutch humanist, diplomat, lawyer, theologian, jurist, poet and playwright[^xxx2]. We had never heard of him, but he apparantly had great impact on the philosophers of his time.
 
 
-<h2 id="peak_enlightenment">Peak Enlightenment: Year 1700-1800</h2>
+<h2 id="peak_enlightenment">Peak Enlightenment: Year 1700-1800</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1700-1800.png?raw=true)
 _Acting as a frame for our wordcloud: Immanuel Kant_
@@ -246,7 +250,7 @@ Average in degree: 1.0588 <br>
 
 We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[^xxx1], which indeed would explain his notoriety.
 
-<h2 id="industrialization">Industrialization: Year 1800-1900</h2>
+<h2 id="industrialization">Industrialization: Year 1800-1900</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1800-1900.png?raw=true)
 _Acting as a frame for our wordcloud: Industrialization_
@@ -267,7 +271,7 @@ Average degree: 1.4970 <br>
 
 John Stuart Mill and Karl Marx were not unexpected to have present on this list. Marx did write the Communist Manifesto in this century - a book that without doubt has had a great impact on the world. Slightly unexpected is it to see Darwin as one of the most influential thinkers of the time. Yet, when considering the still largely christian population of Europe and how radical his ideas presented in _Origin of the Species_. Then there is William James as the - for this period - most influential person. He is conseridered _The Father of American psychology_[^xxx1], which of course puts him in place as important (yet he was until this very moment unbeknownst to me). 
 
-<h2 id="beginning_of_contemporary_history">Beginning of Contemporary History: Year 1900-1950</h2>
+<h2 id="beginning_of_contemporary_history">Beginning of Contemporary History: Year 1900-1950</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1900-1950.png?raw=true)
 _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase_
@@ -287,7 +291,7 @@ Average in degree: 0.9341 <br>
 
 No surprises here. Both Wittgenstein, Heidegger and Russell have had a great impact on the time to succeed them, so they most likely have have a great impact on their contemporaries. The number of nodes in the network starts to grow quite excessive.
 
-<h2 id="current_historic_period">Current Historic Period: Year 1950 until Now</h2>
+<h2 id="current_historic_period">Current Historic Period: Year 1950 until Now</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1950-2000.png?raw=true)
 _Acting as a frame for our wordcloud: Technology and Stuff_
@@ -309,7 +313,7 @@ Average in degree: 1.2135 <br>
 
 This was where my personal knowledge of contemporary philosophy was tested - I'm only familiar with Foucault.
 
-<h1 id="concluding_remarks">Concluding Remarks</h1>
+<h1 id="concluding_remarks">Concluding Remarks</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 _The most frequently occuring words throughout the texts of our people_
@@ -360,13 +364,11 @@ Concluding on the discoveries, we have made a list of what we now know, we know 
 
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
 
-# The Sentiment of Philosophy Throughout History
-<h1 id="the_sentiment_of_philosophy_throughout_history">The Sentiment of Philosophy Throughout History</h1>
+<h1 id="the_sentiment_of_philosophy_throughout_history">The Sentiment of Philosophy Throughout History</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 Before we began working on this project we had a theory: We assumed the sentiment of philosophy throughout history would change and that it would change for the worse, i.e. we assumed that the mean value for the sentiment of the texts describing the philosophers would drop as we approached the 20th century (and then perhaps increase a little throughout the 20th century). We 
 
-# Anachronical Communities
-<h1 id="anachronical_communities">Anachronical Communities</h1>
+<h1 id="anachronical_communities">Anachronical Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
 
 
