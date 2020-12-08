@@ -52,7 +52,7 @@ When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ wi
 
 <h1 id="a_brief_discussion_of_the_data">A Brief Discussion of the Data</h1>
 
-Before we start, we present an elaboration on some of our thoughts about the data that has made the foundation for the analysis. If this seems tiresome, feel free to skip to main content, [__The History of Philosophy__](#the_history_of_philosophy).
+Before we start, we present an elaboration on some of our thoughts about the data that has made the foundation for the analysis. If this seems tiresome, feel free to skip to main content, [__The History of Philosophy__](#the_history_of_philosophy) and if the historical context is of little interest, feel free to skip to [__Concluding Remarks__](#concluding_remarks).
 
 
 <h3 id="source_of_the_data">Source of the Data</h3>
@@ -68,6 +68,7 @@ Ideally the binning would also encapsulate the movements of history; in an ideal
 No matter the cause of the rise in number of philosophers over time, we can conclude, that the number increases exponentially as we close in on the present.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Number_o_phils.png?raw=true)
+_Figure 1: The number of philosophers_
 
 Now, back to the issue of _binning_ this data: If we were to bin the entire data set with a fixed interval, we would bin a very large portion of the philosophers in very few bins. Correspondingly we would have a lot of bins with very few philosophers or none at all. Since a substantial part of our analysis is based on the statistics and emergent phenomena of a collection of philosophers, having to analyze a lot of bins with very little data makes no sense - the bins have to contain some minimum number of data. This could be prevent having mathematically projected non-fixed intervals, but that would likely conflict with one of the prime ideals: attempting to make the bins resemble historic periods.
 
@@ -366,7 +367,19 @@ Concluding on the discoveries, we have made a list of what we now know, we know 
 
 <h1 id="the_sentiment_of_philosophy_throughout_history">The Sentiment of Philosophy Throughout History</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
-Before we began working on this project we had a theory: We assumed the sentiment of philosophy throughout history would change and that it would change for the worse, i.e. we assumed that the mean value for the sentiment of the texts describing the philosophers would drop as we approached the 20th century (and then perhaps increase a little throughout the 20th century). We 
+Before we began working on this project we had a theory: We assumed the sentiment of philosophy throughout history would change and that it would change for the worse, i.e. we assumed that the mean value for the sentiment of the texts describing the philosophers would drop as we approached the 20th century (and then perhaps increase a little throughout the 20th century). We made the assumption that philosophy dealing with the hard questions of life and the world, would generally have a lower value for the sentiment of the texts, than the average. We thought this effect would increase as the world becomes more and more complex with harder questions to consider, leading to lower and lower sentiment values. Then in the 19th and 20th century we have the rise of existentialism followed by absurdism and nihilism, which we assumed to tend towards sad sentiment values.
+
+We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
+
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true)
+_Figure xxx: Distribution of Sentiment Values_
+
+To our surprise the philosophers were in general more _happy_ than the the average sentiment value
+
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot2.png?raw=true)
+_Figure xxx_
+
+
 
 <h1 id="achronological_communities">Achronological Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/)
 
