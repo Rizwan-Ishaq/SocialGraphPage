@@ -192,12 +192,12 @@ Average in degree: 1.0588 <br>
 We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[^xxx1], which indeed would explain his notoriety.
 
 
-
 ## Industrialization: Year 1800-1900
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1800-1900.png?raw=true)
 _Acting as a frame for our wordcloud: Industrialization_
 
+This is a time of great development - especially in Europe. It is also the time of imperialism, causing great pain to people falling victim to the processes, and also defining the geography of the world we inherited. This was also a time of much turmoil with the dust of the french revolution still settling - and with this a plethora of new thoughts emerging on how to run a state[^xxx10]. This was also the time of the great existentialist philosophers, who contemplated questions of ones conscient life and its meaning[^xxx9].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png?raw=true)
 
@@ -210,11 +210,14 @@ Average degree: 1.4970 <br>
 - Charles Darwin _(17)_
 - John Stuart Mill _(16)_
 
+John Stuart Mill and Karl Marx were not unexpected to have present on this list. Marx did write the Communist Manifesto in this century - a book that without doubt has had a great impact on the world. Slightly unexpected is it to see Darwin as one of the most influential thinkers of the time. Yet, when considering the still largely christian population of Europe and how radical his ideas presented in _Origin of the Species_. Then there is William James as the - for this period - most influential person. He is conseridered _The Father of American psychology_[^xxx1], which of course puts him in place as important (yet he was until this very moment unbeknownst to me). 
+
 ## Beginning of Contemporary History: Year 1900-1950
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1900-1950.png?raw=true)
 _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase_
 
+Probably the most defining 50 years of history for the entire northen hemisphere. Namely because of the two world wars and the entrance of communism on the world stage of governmental systems. Focus on the _world_, the _state_ and _psychology_ becomes important topics (yet still being surpassed in frequency by _life_).
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph8_1900_1950.png?raw=true)
 
@@ -226,10 +229,14 @@ Average in degree: 0.9341 <br>
 - Martin Heidegger _(11)_
 - Bertrand Russell _(10)_
 
+No surprises here. Both Wittgenstein, Heidegger and Russell have had a great impact on the time to succeed them, so they most likely have have a great impact on their contemporaries. The number of nodes in the network starts to grow quite excessive.
+
 ## Current Historic Period: Year 1950 until Now
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1950-2000.png?raw=true)
 _Acting as a frame for our wordcloud: Technology and Stuff_
+
+Now we approach our time. The World Wars are over. Now the focus has become more on the _social_ and _political_ aspects of existence.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph9_1950_2000_meh.png?raw=true)
 
@@ -247,9 +254,14 @@ This was where my personal knowledge of contemporary philosophy was tested - I'm
 
 ## Summarizing Remarks
 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
+_The most frequently occuring words throughout the texts of our people_
+
+Wow, such words. Very philosophy.
+The entire network looks like this:
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 
 ### Interconnectedness
 
@@ -278,4 +290,11 @@ Something we didn't consider before gathering the data was the language bias of 
 
 [^xxx7] : https://en.wikipedia.org/wiki/Age_of_Enlightenment
 
+[^xxx8] : https://en.wikipedia.org/wiki/Industrial_Revolution
+
+[^xxx9] : https://en.wikipedia.org/wiki/Existentialism
+
+[^xxx10] : https://en.wikipedia.org/wiki/19th_century
+
+[^xxx11] : https://en.wikipedia.org/wiki/William_James
 
