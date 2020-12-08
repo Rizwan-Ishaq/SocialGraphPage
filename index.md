@@ -17,10 +17,24 @@ In addition to that we will look at how the philosophers (and other influential 
 
 When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
 
+## Content of the Page
+- __A Brief Discussion of the Data__
+- __Convenient Binning of the Data__
+- __Network Analysis__
 
-# The History of Philosophy
+- __The History of Philosophy__
+- ____
+- ____
+- ____
+- ____
+- ____
+- ____
+- ____
+- ____
 
-First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something unexpected!
+# A Brief Discussion of the Data
+
+Before we start, we here bring forth our thoughts about the data that has made the foundation of the analysis.
 
 ### Convenient Binning of the Data
 How to _bin_ the list of names is a topic that has spiked a lot of discussion - which we are to have a small taste of here:
@@ -41,6 +55,10 @@ The philosophers are binned based on "in which historic period, they were half t
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
 Without further ado, let's examine the history of philosophy:
+
+# The History of Philosophy
+
+First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something unexpected!
 
 ## The Ancient Philosophers: Year 1000 BC to Year 0 AD
 
@@ -137,10 +155,10 @@ Number of nodes: 26 <br>
 Number of edges: 7 <br>
 Average degree: 0.2692 <br>
 
-- Michel de Montaigne_(2)_
-- Pierre Charron_(2)_
-- Francis Bacon_(2)_
-- Paracelsus_(2)_
+- Michel de Montaigne _(2)_
+- Pierre Charron _(2)_
+- Francis Bacon _(2)_
+- Paracelsus _(2)_
 
 Of these people only Francis Bacon is familiar to us. Which is somewhat surprising: we had at least expected to find Da Vinci in this group as one of the most influential people. But this leaves room for a lot of new stuff to learn of the influential people of this period. As one might say: _knowledge is power_.
 
@@ -278,7 +296,9 @@ Something we didn't consider before gathering the data was the language bias of 
 
 ### References
 
-[^xxx1] : https://en.wikipedia.org/wiki/Thomas_Paine
+
+
+[^xxx1] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
 
 [^xxx2] : https://en.wikipedia.org/wiki/Hugo_Grotius
 
