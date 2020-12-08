@@ -45,16 +45,14 @@ The most prominent themes of this period is, as one would expect, very centered 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true)
 
-Number of nodes: 53
-
-Number of edges: 90
-
-Average degree: 1.6981
+Number of nodes: 53 <br>
+Number of edges: 90 <br>
+Average degree: 1.6981 <br>
 
 Most influential persons of the period:
-- Plato
-- Sokrates
-- Aristotle (likely the most influential philosopher of all time - but we'll get back to that)
+- Plato _(15)_
+- Sokrates _(10)_
+- Aristotle (likely the most influential philosopher of all time - but we'll get back to that) _(9)_
 
 As expected a very interwoven network of philosophers.
 
@@ -67,15 +65,13 @@ Now, the picture changes (both literally and regarding the data).
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png?raw=true)
 
-Number of nodes: 32
+Number of nodes: 32 <br>
+Number of edges: 18 <br>
+Average degree: 0.5625 <br>
 
-Number of edges: 18
-
-Average degree: 0.5625
-
-- Plotinus
-- Proclus
-- Pseudo-Dionysius the Areopagite
+- Plotinus _(6)_
+- Proclus _(4)_
+- Pseudo-Dionysius the Areopagite _(4)_
 
 The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire - names ending with the latin suffix "-us" and quite a lot of persons named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots.
 
@@ -90,15 +86,13 @@ The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph2_500_1000.png?raw=true)
 
-Number of nodes: 7
+Number of nodes: 7 <br>
+Number of edges: 2 <br>
+Average degree: 0.2857 <br>
 
-Number of edges: 2
-
-Average degree: 0.2857
-
-- Al-Farabi
-- Yahya ibn Adi
-- Al-Kindi
+- Al-Farabi _(2)_
+- Yahya ibn Adi _(1)_
+- Al-Kindi _(1)_
 
 As expected all of the (although few) philosophers are from the Arab world (present day Syria, Iraq and Iraq respectively). Compared to the other historic time spans, this is very deprived of philosophers. A reason for this could be a cultural skew of our analysis: we have only analyzed english wikipedia-pages, which will likely have a tendency towards having more elaborate information on persons from the Anglo-Saxon and Western world - and during this time period, the Anglo-Saxon and Western world was not the epicenter of historic progress, mildly speaking.
 
@@ -111,16 +105,14 @@ During this time the Catholic Church has become very prosperous, and teachings o
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true)
 
-Number of nodes: 65
+Number of nodes: 65 <br>
+Number of edges: 93 <br>
+Average degree: 1.4308 <br>
 
-Number of edges: 93
-
-Average degree: 1.4308
-
-- Averroes
-- William of Ockham
-- Thomas Aquinas
-- Avicenna
+- Averroes _(14)_
+- William of Ockham _(12)_
+- Thomas Aquinas _(12)_
+- Avicenna _(10)_
 
 Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is very renowned.
 
@@ -131,16 +123,14 @@ _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true)
 
-Number of nodes: 26
+Number of nodes: 26 <br>
+Number of edges: 7 <br>
+Average degree: 0.2692 <br>
 
-Number of edges: 7
-
-Average degree: 0.2692
-
-- Michel de Montaigne
-- Pierre Charron
-- Francis Bacon
-- Paracelsus
+- Michel de Montaigne_(2)_
+- Pierre Charron_(2)_
+- Francis Bacon_(2)_
+- Paracelsus_(2)_
 
 
 ## The Scientific Revolution: Year 1600-1700
@@ -153,16 +143,14 @@ But that's the science part, we are to continue with the philosophy (even though
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph5_1600_1700.png?raw=true)
 
-Number of nodes: 41
+Number of nodes: 41 <br>
+Number of edges: 35 <br>
+Average degree: 0.8537 <br>
 
-Number of edges: 35
-
-Average degree: 0.8537
-
-- René Descartes
-- Hugo Grotius
-- John Locke
-- Thomas Hobbes
+- René Descartes _(10)_
+- Hugo Grotius _(7)_
+- John Locke _(5)_
+- Thomas Hobbes _(5)_
 
 Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all.
 
@@ -175,18 +163,16 @@ _Acting as a frame for our wordcloud: Immanuel Kant_
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png?raw=true)
 
-Number of nodes: 68
+Number of nodes: 68 <br>
+Number of edges: 72 <br>
+Average in degree: 1.0588 <br>
 
-Number of edges: 72
-
-Average in degree:   1.0588
-
-- Immanuel Kant  10
-- Christian Wolff  10
-- David Hume   9
-- Joseph Butler   8
-- Thomas Paine   7
-- Voltaire   7
+- Immanuel Kant _(10)_
+- Christian Wolff _(10)_
+- David Hume _(9)_
+- Joseph Butler _(8)_
+- Thomas Paine _(7)_
+- Voltaire _(7)_
 
 ## Industrialization: Year 1800-1900
 
@@ -196,16 +182,14 @@ _Acting as a frame for our wordcloud: Industrialization_
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png?raw=true)
 
-Number of nodes: 167
+Number of nodes: 167 <br>
+Number of edges: 250 <br>
+Average degree: 1.4970 <br>
 
-Number of edges: 250
-
-Average degree: 1.4970
-
-- William James  18
-- Karl Marx  17
-- Charles Darwin  17
-- John Stuart Mill  16
+- William James _(18)_
+- Karl Marx _(17)_
+- Charles Darwin _(17)_
+- John Stuart Mill _(16)_
 
 ## Beginning of Contemporary History: Year 1900-1950
 
@@ -215,15 +199,13 @@ _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph8_1900_1950.png?raw=true)
 
-Number of nodes: 182
+Number of nodes: 182 <br>
+Number of edges: 170 <br>
+Average in degree: 0.9341 <br>
 
-Number of edges: 170
-
-Average in degree: 0.9341
-
-- Ludwig Wittgenstein  14
-- Martin Heidegger  11
-- Bertrand Russell  10
+- Ludwig Wittgenstein _(14)_
+- Martin Heidegger _(11)_
+- Bertrand Russell _(10)_
 
 ## Current Historic Period: Year 1950 until Now
 
@@ -232,23 +214,21 @@ _Acting as a frame for our wordcloud: Technology and Stuff_
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph9_1950_2000_meh.png?raw=true)
 
-Number of nodes: 192
+Number of nodes: 192 <br>
+Number of edges: 233 <br>
+Average in degree: 1.2135 <br>
 
-Number of edges: 233
-
-Average in degree: 1.2135
-
-- Hilary Putnam  14
-- Jacques Derrida  14
-- Michel Foucault  13
-- Cornelius Castoriadis  13
-- Louis Althusser  12
+- Hilary Putnam _(14)_
+- Jacques Derrida _(14)_
+- Michel Foucault _(13)_
+- Cornelius Castoriadis _(13)_
+- Louis Althusser _(12)_
 
 This was where my personal knowledge of contemporary philosophy was tested - I'm only familiar with Foucault.
 
 ## Summarizing Remarks
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph2.png?raw=true)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 
