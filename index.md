@@ -19,22 +19,32 @@ When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ wi
 
 ## Content of the Page
 - __A Brief Discussion of the Data__
-- __Convenient Binning of the Data__
-- __Network Analysis__
-
+    - __Convenient Binning of the Data__
+    - __Network Analysis__
 - __The History of Philosophy__
-- ____
-- ____
-- ____
-- ____
-- ____
-- ____
-- ____
+    - __The Ancient Philosophers: Year 1000 BC to Year 0 AD__
+    - __Age of the Roman Empire: Year 0-500__
+    - __The Islamic Golden Age: Year 500-1000__
+    - __Late Middle Ages: Year 1000-1500__
+    - __The Renaissance: Year 1500-1600__
+    - __The Scientific Revolution: Year 1600-1700__
+    - __Peak Enlightenment: Year 1700-1800__
+    - __Industrialization: Year 1800-1900__
+    - __Beginning of Contemporary History: Year 1900-1950__
+    - __Current Historic Period: Year 1950 until Now__
+- __Summarizing Remarks__
+    - __Interconnectedness__
+    - __An Unexpected Bias__
+    - __Surprising Finds__
 - ____
 
 # A Brief Discussion of the Data
 
 Before we start, we here bring forth our thoughts about the data that has made the foundation of the analysis.
+
+### Source of the Data
+
+To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the list(s) as a philosopher.
 
 ### Convenient Binning of the Data
 How to _bin_ the list of names is a topic that has spiked a lot of discussion - which we are to have a small taste of here:
@@ -49,7 +59,7 @@ Now, back to the issue of _binning_ this data: If we were to bin the entire data
 Eventually we settled on the (to us) quite aesthethic compromise:
 __10 historic intervals__ which are mostly divided into centuries, with the exclusion of the time before year 1500 AD, which is divided into the intervals of 500 years until year 0, where we have binned the entire ancient philosophy from year 1000 BC to year 0 into one ancient bin. Another exception is the 20th century, which we have divided in "Pre-World War II" and "Post-World War II"; from 1900 to 1950 and 1950 to 2000 respectively.
 
-The philosophers are binned based on "in which historic period, they were half their total age", e.g. if Arthur Schopenhauer, born 1788 and died 1860, were to be assigned a historic bin, he would be "half his full age" in: _(1860-1788)/2 + 1788 = 1824_, thus assigning him to the bin containing philosophers from year 1800 to 1900.
+The philosophers are binned based on "in which historic period, they were half their total age", e.g. if Arthur Schopenhauer, born 1788 and died 1860, were to be assigned a historic bin, he would be "half his full age" in: _(1860-1788)/2 + 1788 = 1824_, thus assigning him to the bin containing philosophers from year 1800 to 1900. We are well aware that this is a somewhat crude division, as some philosophers may have lived several decades in a different century than they were assigned, perhaps even producing some of their most influential works in that century. To cope with this, we have talked about having philosophers 
 
 ### Network Analysis
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
@@ -291,30 +301,35 @@ A peculiar characteristic we noticed when analyzing the historical bins: the pro
 
 Something we didn't consider before gathering the data was the language bias of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
 
-
+### Surprising Finds
 
 
 ### References
 
 
+[xxx] : 
+- [List of Philosophers (A-C)](https://en.wikipedia.org/wiki/Listof_philosophers(A%E2%80%93C) "Philosophers (A-C)")
+- [List of Philosophers (D-H)](https://en.wikipedia.org/wiki/Listof_philosophers(D%E2%80%93H) "Philosophers (D-H)")
+- [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/Listof_philosophers(I%E2%80%93Q) "Philosophers (I-Q)")
+- [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/Listof_philosophers(R%E2%80%93Z) "Philosophers (R-Z)")
 
 [^xxx1] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
 
-[^xxx2] : https://en.wikipedia.org/wiki/Hugo_Grotius
+[^xxx2] : [Hugo Grotius](https://en.wikipedia.org/wiki/Hugo_Grotius "Hugo Grotius's Wikipedia-page")
 
-[^xxx3] : https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+[^xxx3] : [Rene Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes "Rene Descartes' Wikipedia-page")
 
-[^xxx4] : https://en.wikipedia.org/wiki/Renaissance
+[^xxx4] : [Renaissance](https://en.wikipedia.org/wiki/Renaissance "The Renaissance's Wikipedia-page")
 
-[^xxx6] : https://en.wikipedia.org/wiki/Thomas_Aquinas
+[^xxx6] : [Thomas Aquinas](https://en.wikipedia.org/wiki/Thomas_Aquinas "Thomas Aquinas Wikipedia-page")
 
-[^xxx7] : https://en.wikipedia.org/wiki/Age_of_Enlightenment
+[^xxx7] : [Age of Enlightenment](https://en.wikipedia.org/wiki/Age_of_Enlightenment "The Age_of_Enlightenment's Wikipedia-page")
 
-[^xxx8] : https://en.wikipedia.org/wiki/Industrial_Revolution
+[^xxx8] : [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution "The Industrial Revolution's Wikipedia-page")
 
-[^xxx9] : https://en.wikipedia.org/wiki/Existentialism
+[^xxx9] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page")
 
-[^xxx10] : https://en.wikipedia.org/wiki/19th_century
+[^xxx10] : [19th century](https://en.wikipedia.org/wiki/19th_century "19th_century's Wikipedia-page")
 
-[^xxx11] : https://en.wikipedia.org/wiki/William_James
+[^xxx11] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page")
 
