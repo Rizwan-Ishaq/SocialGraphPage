@@ -7,19 +7,10 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved.
+Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the anachronological depths of the data.
 
-Especially whom the most influential people have been in this development - those who have made the greatest impact on other philosophers.
-
-We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it, in one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
-
-In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
-
-And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may previously have been completely unknown to us.
-
-When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
-
-## Content of the Page
+# Overview
+- [__Introduction__](#introduction)
 - [__A Brief Discussion of the Data__](#a_brief_discussion_of_the_data)
     - [__Source of the Data__](#source_of_the_data)
     - [__Convenient Binning of the Data__](#convenient_binning_of_the_data)
@@ -43,8 +34,24 @@ When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ wi
 - [__The Sentiment of Philosophy Throughout History__](#the_sentiment)
 - [__Anachronical Communities__](#anachronical_communities)
 
+# Introduction
+<h1 id="introduction">Introduction</h1>
+
+We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved.
+
+Especially whom the most influential people have been in this development - those who have made the greatest impact on other philosophers.
+
+We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it, in one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
+
+In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+
+And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may previously have been completely unknown to us.
+
+When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
+
+
 # A Brief Discussion of the Data
-<h3 id="a_brief_discussion_of_the_data">A Brief Discussion of the Data</h3>
+<h1 id="a_brief_discussion_of_the_data">A Brief Discussion of the Data</h1>
 
 Before we start, we present an elaboration on some of our thoughts about the data that has made the foundation for the analysis. If this seems tiresome, feel free to skip to main content, [__The History of Philosophy__](#the_history_of_philosophy).
 
