@@ -88,13 +88,15 @@ As mentioned we will look at how, the philosophers have influenced one another t
 
 Without further ado, let's examine the history of philosophy:
 
-<h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h1 id="the_history_of_philosophy">The History of Philosophy</h1>
+[Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 
-<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2>
+[Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
