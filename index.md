@@ -38,7 +38,7 @@ Without further ado, let's examine the history of philosophy:
 
 ## The Ancient Philosophers: Year 1000 BC to Year 0 AD
 
-![image](https://-5000_0_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png)
 _Acting as a frame for our wordcloud: Parthenon_
 
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
@@ -58,7 +58,7 @@ As expected a very interwoven network of philosophers.
 
 ## Age of the Roman Empire: Year 0-500
 
-![image](https://0_500_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/0-500.png)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
 
 Now, the picture changes (both literally and regarding the data).
@@ -77,7 +77,7 @@ The time of the ancient Greek philosophers has peaked, but the Greek presence is
 
 ## The Islamic Golden Age: Year 500-1000
 
-![image](https://500_1000_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/500-1000.png)
 _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
 
 The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time with little to no focus on the education of common people, and some level of disregard for ideas that were not aligned with the teachings of the Bible. While this was happening, the Middle East flourished and a lot of great thinkers had the opportunity to have their ideas developed and recorded for history to remember.
@@ -96,7 +96,7 @@ As expected all of the (although few) philosophers are from the Arab world (pres
 
 ## Late Middle Ages: Year 1000-1500
 
-![image](https://1000_1500_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1000-1500.png)
 _Acting as a frame for our wordcloud: A Cross_
 
 During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians.
@@ -116,7 +116,7 @@ Yet, the Islamic Golden age is by no means over: Averroes is the latinized versi
 
 ## The Renaissance: Year 1500-1600
 
-![image](https://1500_1600_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
 ![image](https://1500_1600_network)
@@ -133,7 +133,7 @@ Average degree: 0.2692
 
 ## The Scientific Revolution: Year 1600-1700
 
-![image](https://1600_1700_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1600-1700.png)
 _Acting as a frame for our wordcloud: Isaac Newton's Apple Tree Shone Upon By a Full Moon_
 
 This was indeed the century of science. It had already started in the 16th century with Copernicus, followed by Galilei and Kepler and now - propelled by Newton's Principia - a new generation of scientists were to propel the world forward.
@@ -155,7 +155,7 @@ Regarding philosophers this period is dominated by Rene Descartes. Being the gen
 
 ## Peak Enlightenment: Year 1700-1800 
 
-![image](https://1700_1800_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1700-1800.png)
 _Acting as a frame for our wordcloud: Immanuel Kant_
 
 
@@ -163,7 +163,7 @@ _Acting as a frame for our wordcloud: Immanuel Kant_
 
 ## Industrialization: Year 1800-1900
 
-![image](https://1800_1900_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1800-1900.png)
 _Acting as a frame for our wordcloud: Industrialization_
 
 
@@ -171,7 +171,7 @@ _Acting as a frame for our wordcloud: Industrialization_
 
 ## Beginning of Contemporary History: Year 1900-1950
 
-![image](https://1900_1950_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1900-1950.png)
 _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase_
 
 
@@ -179,7 +179,7 @@ _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase
 
 ## Current Historic Period: Year 1950 until Now
 
-![image](https://1950_2000_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1950-2000.png)
 _Acting as a frame for our wordcloud: Technology and Stuff_
 
 ![image](https://1950_2000_network)
