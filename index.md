@@ -117,12 +117,14 @@ Average degree: 1.4308 <br>
 - Thomas Aquinas _(12)_
 - Avicenna _(10)_
 
-Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is very renowned.
+Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is a very renowned thinker.
 
 ## The Renaissance: Year 1500-1600
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png?raw=true)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
+
+The Renaissance [^xxx4]
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true)
 
@@ -141,8 +143,9 @@ Average degree: 0.2692 <br>
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1600-1700.png?raw=true)
 _Acting as a frame for our wordcloud: Isaac Newton's Apple Tree Shone Upon By a Full Moon_
 
-This was indeed the century of science. It had already started in the 16th century with Copernicus, followed by Galilei and Kepler and now - propelled by Newton's Principia - a new generation of scientists were to propel the world forward.
-But that's the science part, we are to continue with the philosophy (even though Newton did make it onto the list of persons who has influenced most philosophers in this bin). 
+This was indeed the century of science. It had already started in the 16th century with Copernicus, followed by Galilei and Kepler and now - propelled by Newton's Principia - a new generation of scientists were to propel the world forward. This is also quite clear from the reccurent words of the philosophers of the time.
+
+But that's it for science at the moment! We are to continue with the philosophy. The network of the 1700th century philosophers look like this:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph5_1600_1700.png?raw=true)
 
@@ -155,7 +158,7 @@ Average degree: 0.8537 <br>
 - John Locke _(5)_
 - Thomas Hobbes _(5)_
 
-Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. Then there is Hugo Grotius
+Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. One thing that may have settled Descartes' place in the top is his influence on both philosophy and science, as he was involved both. Especially math with regards to science[^xxx3]. Then there is Hugo Grotius, who was a dutch humanist, diplomat, lawyer, theologian, jurist, poet and playwright[^xxx2]. We had never heard of him, but he apparantly had great impact on the philosophers of his time.
 
 
 ## Peak Enlightenment: Year 1700-1800 
@@ -255,6 +258,14 @@ Something we didn't consider before gathering the data was the language bias of 
 ### References
 
 [^xxx1] : https://en.wikipedia.org/wiki/Thomas_Paine
+
+[^xxx2] : https://en.wikipedia.org/wiki/Hugo_Grotius
+
+[^xxx3] : https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+
+[^xxx4] : https://en.wikipedia.org/wiki/Renaissance
+
+
 
 
 
