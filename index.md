@@ -298,7 +298,23 @@ _The most frequently occuring words throughout the texts of our people_
 Through the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
+_Network of the most influential Philosophers of all time_
 
+Number of nodes: 833 <br>
+Number of edges: 2389 <br>
+Average degree: 2.8679 <br>
+
+The top 10 of most influential philosophers throughout time are:
+1. Aristotle _(90)_
+2. Immanuel Kant _(86)_
+3. Karl Marx _(80)_
+4. Plato _(71)_
+5. Ludwig Wittgenstein _(45)_
+6. Friedrich Nietzsche _(44)_
+7. William James _(38)_
+8. René Descartes, Sigmund Freud _(34)_
+9. Martin Heidegger, Baruch Spinoza, John Stuart Mill _(32)_
+10. David Hume, Thomas Aquinas, Edmund Husserl _(31)_
 
 ### Interconnectedness
 
@@ -312,6 +328,8 @@ Something we didn't consider before gathering the data was the language bias of 
 
 ### Surprising Discoveries
 
+
+Something that came across as quite surprising was the total absence of women in the 
 
 ### References
 
