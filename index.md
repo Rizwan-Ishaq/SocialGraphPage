@@ -45,7 +45,7 @@ The most prominent themes of this period is, as one would expect, very centered 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true){:height="70px" width="40px"}
 
-<img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true" height="720px" width="260px">
+<img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true" height="720px" width="260px" margin-top="-100px">
 
 Number of nodes: 53 <br>
 Number of edges: 90 <br>
