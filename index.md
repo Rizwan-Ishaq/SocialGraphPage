@@ -22,7 +22,7 @@ Ideally the binning would also encapsulate the movements of history; in an ideal
 
 No matter the cause of the rise in number of philosophers over time, we can conclude, that the number increases exponentially as we close in on the present.
 
-![image](https://Graph_of_number_of_philosophers)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Number_o_phils.png?raw=true)
 
 Now, back to the issue of _binning_ this data: If we were to bin the entire data set with a fixed interval, we would bin a very large portion of the philosophers in very few bins. Correspondingly we would have a lot of bins with very few philosophers or none at all. Since a substantial part of our analysis is based on the statistics and emergent phenomena of a collection of philosophers, having to analyze a lot of bins with very little data makes no sense - the bins have to contain some minimum number of data. This could be prevent having mathematically projected non-fixed intervals, but that would likely conflict with one of the prime ideals: attempting to make the bins resemble historic periods.
 
@@ -38,7 +38,7 @@ Without further ado, let's examine the history of philosophy:
 
 ## The Ancient Philosophers: Year 1000 BC to Year 0 AD
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true){:height="600px" width="450px"}
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
 
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
@@ -248,15 +248,15 @@ This was where my personal knowledge of contemporary philosophy was tested - I'm
 
 ## Summarizing Remarks
 
-![image](https://conclusion_wordcloud)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph2.png?raw=true)
 
-![image](https://conclusion_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 
 ### Interconnectedness
 
-A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied wildly.
+A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied vividly, but had a general decline. We attribute this to the record keeping and/or education scarcity; only the most influential philosophers got to be remembered by time, and were able to be granted the honor of having a Wikipedia-page - and in times with scarce educational resources, renowned thinkers were more likely to influence one another. Today there has never been more philosophers worthy of a Wikipedia-page alive, but the likelihood of them influencing each other is declining. It's like the strange situation we're facing with regards to reading: never hve there been such a steep decline in people reading books, yet more books are being printed than ever before.
 
-![image](https://p_of_Qs)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/connected_p.png?raw=true)
 
 ### An Unexpected Bias
 
