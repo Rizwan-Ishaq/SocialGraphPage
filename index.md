@@ -43,6 +43,15 @@ _Acting as a frame for our wordcloud: Parthenon_
 
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
+<div class="aside">
+<h2>My heading</h2>
+<p>Some text, some text, some more text.</p>
+
+#example img {
+float: left;
+margin: 30px 60px;
+}
+</div>
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true)
 
 <img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true" margin="-15% -15%">
@@ -65,7 +74,7 @@ As expected a very interwoven network of philosophers.
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/0-500.png?raw=true)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
 
-Now, the picture changes (both literally and regarding the data).
+Now, the picture changes (both literally and with regards to the data). Greek themes are still present, but now themes of the Roman world are most dominant - including a lot of names ending with the latin suffix "-us".
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png?raw=true)
 
@@ -77,7 +86,7 @@ Average degree: 0.5625 <br>
 - Proclus _(4)_
 - Pseudo-Dionysius the Areopagite _(4)_
 
-The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire - names ending with the latin suffix "-us" and quite a lot of persons named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots.
+The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire. Together with names ending with the latin suffix "-us" (like the themes in the wordcloud), quite a lot of persons are named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots indicating the Greeks still had a great impact on the ideas of the Roman world.
 
 Now, with some working knowledge of western philosophy, one might ask: Where is Augustine of Hippo? He is probably the most renowned person in philosophy and theology from that time. Fear not: with respect to most people influenced throughout history Augustine of Hippo is second highest in this bin, only surpassed by Plotinus.
 
@@ -105,7 +114,7 @@ As expected all of the (although few) philosophers are from the Arab world (pres
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1000-1500.png?raw=true)
 _Acting as a frame for our wordcloud: A Cross_
 
-During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians.
+During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians. 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true)
 
