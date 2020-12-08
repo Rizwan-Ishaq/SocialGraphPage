@@ -7,13 +7,15 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-# Introduction
+We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved.
 
-We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved. Especially whom the most influential people have been in this development - those who have made the greatest impact on subsequent thinkers. We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it in, one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
+Especially whom the most influential people have been in this development - those who have made the greatest impact on other philosophers.
 
-And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may have been previously unknown to us.
+We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it, in one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
 
 In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+
+And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may previously have been completely unknown to us.
 
 When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
 
@@ -36,15 +38,18 @@ When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ wi
     - __Interconnectedness__
     - __An Unexpected Bias__
     - __Surprising Discoveries__
-- ____
+    - __Further Reading__
+- __The Sentiment of Philosophy Throughout History__
+- __Anachronical Communities__
 
 # A Brief Discussion of the Data
 
-Before we start, we here bring forth our thoughts about the data that has made the foundation of the analysis.
+Before we start, we present an elaboration on some of our thoughts about the data that has made the foundation for the analysis. If this seems tiresome, feel free to skip to main content, [__The History of Philosophy__](#the_history_of_philosophy).
+
 
 ### Source of the Data
 
-To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the list(s) as a philosopher.
+To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
 
 ### Convenient Binning of the Data
 How to _bin_ the list of names is a topic that has spiked a lot of discussion - which we are to have a small taste of here:
@@ -67,8 +72,10 @@ As mentioned we will look at how, the philosophers have influenced one another t
 Without further ado, let's examine the history of philosophy:
 
 # The History of Philosophy
+<h1 id="the_history_of_philosophy">The History of Philosophy</h1>
 
-First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something unexpected!
+
+First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 ## The Ancient Philosophers: Year 1000 BC to Year 0 AD
 
@@ -316,6 +323,8 @@ The top 10 of most influential philosophers throughout time are:
 9. Martin Heidegger, Baruch Spinoza, John Stuart Mill _(32)_
 10. David Hume, Thomas Aquinas, Edmund Husserl _(31)_
 
+Some of them come across quite clearly as huge planets in the universe of connections: Aristotle and Plato are the two large purple bulbs to the left (the network is designed to have people from way back in the past tend towards the right side, and people from the present tend toward the right). Kant and Marx are the large bulbs in the bottom of the network in green and yellow respectively.
+
 ### Interconnectedness
 
 A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied vividly, but had a general decline. We attribute this to the record keeping and/or education scarcity; only the most influential philosophers got to be remembered by time, and were able to be granted the honor of having a Wikipedia-page - and in times with scarce educational resources, renowned thinkers were more likely to influence one another. Today there has never been more philosophers worthy of a Wikipedia-page alive, but the likelihood of them influencing each other is declining. It's like the strange situation we're facing with regards to reading: never hve there been such a steep decline in people reading books, yet more books are being printed than ever before.
@@ -328,8 +337,28 @@ Something we didn't consider before gathering the data was the language bias of 
 
 ### Surprising Discoveries
 
+Whether or not it was a major discovery, we came to realize that we have disproportionately little knowledge of our contemporary philosophers. Hilary Putnam, Jacques Derrida, Cornelius Castoriadis and Louis Althusser were all unfamiliar names to us.
 
-Something that came across as quite surprising was the total absence of women in the 
+Something that came across as quite surprising was the total absence of women in the among the most influential philosophers - not even in the more recent periods of history (I had a small glimpse of hope, when I saw the name _Hilary Putnam_ - but I was too assumptious, _Hilary_ was indeed an American man).
+
+
+Concluding on the discoveries, we have made a list of what we now know, we know toot little of, __Further Reading__, for us to dig more into.
+
+#### Further Reading:
+
+- Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
+
+# The Sentiment of Philosophy Throughout History
+
+Before we began working on this project we had a theory: We assumed the sentiment of philosophy throughout history would change and that it would change for the worse, i.e. we assumed that the mean value for the sentiment of the texts describing the philosophers would drop as we approached the 20th century (and then perhaps increase a little throughout the 20th century). We 
+
+# Anachronical Communities
+
+
+
+#### Further Reading:
+
+- Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
 
 ### References
 
@@ -338,7 +367,7 @@ Something that came across as quite surprising was the total absence of women in
 - [List of Philosophers (A-C)](https://en.wikipedia.org/wiki/List_of_philosophers_(A%E2%80%93C) "Philosophers (A-C)")
 - [List of Philosophers (D-H)](https://en.wikipedia.org/wiki/List_of_philosophers_(D%E2%80%93H) "Philosophers (D-H)")
 - [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/List_of_philosophers_(I%E2%80%93Q) "Philosophers (I-Q)")
-- [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/List_of_philosophers-(R%E2%80%93Z) "Philosophers (R-Z)")
+- [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/List_of_philosophers_(R%E2%80%93Z) "Philosophers (R-Z)")
 
 [^xxx1] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
 
