@@ -1,8 +1,8 @@
 ---
 title: A Brief History of Philosophy
 feature_text: |
-  ## Philosophy and Data Analysis
-  A quick peak into a vast field of though
+  <h2 id="home">Philosophy and Data Analysis</h2>
+  A quick peak into a vast field of thought
 feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/phil_banner.png?raw=true"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
@@ -89,14 +89,14 @@ As mentioned we will look at how, the philosophers have influenced one another t
 Without further ado, let's examine the history of philosophy:
 
 <h1 id="the_history_of_philosophy">The History of Philosophy</h1>
-[Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+[Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
 
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 
 <h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2>
-[Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+[Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
@@ -383,7 +383,7 @@ _Figure xxx_
 
 
 
-<h1 id="achronological_communities">Achronological Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h1 id="achronological_communities">Achronological Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
 
 
 <h3 id="references">References</h3> [^](https://rizwan-ishaq.github.io/SocialGraphPage/#)
