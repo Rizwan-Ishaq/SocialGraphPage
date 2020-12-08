@@ -9,9 +9,13 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 
 # Introduction
 
-We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved. Especially whom the most influential people have been in this development - those who have made the greatest impact on subsequent thinkers. We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it in, one way or another, correlates with renowned periods history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
+We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved. Especially whom the most influential people have been in this development - those who have made the greatest impact on subsequent thinkers. We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it in, one way or another, correlates with renowned periods of history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
 
-In addition to that we will look at how the philosophers (among other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+And then, to be frank, it would be quite awesome to discover highly influential/important people of this field, whom may have been previously unknown to us.
+
+In addition to that we will look at how the philosophers (and other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+
+When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
 
 
 # The History of Philosophy
@@ -43,8 +47,7 @@ Without further ado, let's examine the history of philosophy:
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
 
-The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
-
+The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks (in our list), whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true)
 
@@ -104,7 +107,7 @@ As expected all of the (although few) philosophers are from the Arab world (pres
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1000-1500.png?raw=true)
 _Acting as a frame for our wordcloud: A Cross_
 
-During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians. 
+During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians, whom also formed new interesting ideas of the time. 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true)
 
@@ -117,14 +120,16 @@ Average degree: 1.4308 <br>
 - Thomas Aquinas _(12)_
 - Avicenna _(10)_
 
-Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is a very renowned thinker.
+Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is a very renowned thinker ... who also fits perfectly on the stereotype of European thinkers of the time, being a catholic priest and a theologian[^xxx6].
+
+With this number of nodes in the network, the visualizations start to become a little difficult to read, but we have made an attempt to have a high enough resolution to at least be able to see the names of the most prominent nodes when zooming in. They should all look pretty decent when zooming in.
 
 ## The Renaissance: Year 1500-1600
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png?raw=true)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
-The Renaissance [^xxx4]
+The Renaissance marked the end of the Middle Ages with a return to some of the ideas of the Ancient Greeks. To confine this period to only last the century from year 1500 to 1600 is definitely a bit of a stretch, but we concluded "The Renaissance" was the most fitting title for this period of time[^xxx4].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true)
 
@@ -137,6 +142,9 @@ Average degree: 0.2692 <br>
 - Francis Bacon_(2)_
 - Paracelsus_(2)_
 
+Of these people only Francis Bacon is familiar to us. Which is somewhat surprising: we had at least expected to find Da Vinci in this group as one of the most influential people. But this leaves room for a lot of new stuff to learn of the influential people of this period. As one might say: _knowledge is power_.
+
+Now, having this somewhat limited number of nodes is a result of our _binning_. When considering the distribution of number of philosophers over time, bins that have intervals that decreased exponentially would have made a more even distribution of people in each bin. Our choice of not having bins with steadily increasing intervals and instead having a very sharp shift in the size of the bins (from a period of 500 years to a period of 100 years) is likely to blame for the size of this bin. We have already discussed that in the section __Convenient Binning of the Data__. In hindsight we should perhaps have made a "middle bin", containing for instance the years 1400 to 1600.
 
 ## The Scientific Revolution: Year 1600-1700
 
@@ -166,6 +174,7 @@ Regarding philosophers this period is dominated by Rene Descartes. Being the gen
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1700-1800.png?raw=true)
 _Acting as a frame for our wordcloud: Immanuel Kant_
 
+This section has literally _Kant_ written all over it. The Enlightenment was a period of _ideas centered on the sovereignty of reason and the evidence of the senses as the primary sources of knowledge and advanced ideals such as liberty, progress, toleration, fraternity, constitutional government and separation of church and state_[^xxx7], themes which - along with the names of the famous people of the time - are represented in the wordcloud of this period.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png?raw=true)
 
@@ -180,7 +189,7 @@ Average in degree: 1.0588 <br>
 - Thomas Paine _(7)_
 - Voltaire _(7)_
 
-We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of  
+We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[^xxx1], which indeed would explain his notoriety.
 
 
 
@@ -265,7 +274,8 @@ Something we didn't consider before gathering the data was the language bias of 
 
 [^xxx4] : https://en.wikipedia.org/wiki/Renaissance
 
+[^xxx6] : https://en.wikipedia.org/wiki/Thomas_Aquinas
 
-
+[^xxx7] : https://en.wikipedia.org/wiki/Age_of_Enlightenment
 
 
