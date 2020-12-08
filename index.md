@@ -38,12 +38,12 @@ Without further ado, let's examine the history of philosophy:
 
 ## The Ancient Philosophers: Year 1000 BC to Year 0 AD
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png){:height="600px" width="450px"}
 _Acting as a frame for our wordcloud: Parthenon_
 
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks, whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
-![image](https://-5000_0_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png)
 
 Number of nodes: 53
 
@@ -65,7 +65,7 @@ _Acting as a frame for our wordcloud: Colosseum (in a more contemporary conditio
 
 Now, the picture changes (both literally and regarding the data).
 
-![image](https://0_500_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png)
 
 Number of nodes: 32
 
@@ -88,7 +88,7 @@ _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
 
 The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time with little to no focus on the education of common people, and some level of disregard for ideas that were not aligned with the teachings of the Bible. While this was happening, the Middle East flourished and a lot of great thinkers had the opportunity to have their ideas developed and recorded for history to remember.
 
-![image](https://500_1000_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph2_500_1000.png)
 
 Number of nodes: 7
 
@@ -109,7 +109,7 @@ _Acting as a frame for our wordcloud: A Cross_
 
 During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians.
 
-![image](https://1000_1500_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png)
 
 Number of nodes: 65
 
@@ -129,7 +129,7 @@ Yet, the Islamic Golden age is by no means over: Averroes is the latinized versi
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
-![image](https://1500_1600_network)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png)
 
 Number of nodes: 26
 
