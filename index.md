@@ -32,10 +32,10 @@ When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ wi
     - __Industrialization: Year 1800-1900__
     - __Beginning of Contemporary History: Year 1900-1950__
     - __Current Historic Period: Year 1950 until Now__
-- __Summarizing Remarks__
+- __Concluding Remarks__
     - __Interconnectedness__
     - __An Unexpected Bias__
-    - __Surprising Finds__
+    - __Surprising Discoveries__
 - ____
 
 # A Brief Discussion of the Data
@@ -78,6 +78,7 @@ _Acting as a frame for our wordcloud: Parthenon_
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks (in our list), whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true)
+_Network of the Philosophers of the Years Before 0 AD_
 
 Number of nodes: 53 <br>
 Number of edges: 90 <br>
@@ -98,6 +99,7 @@ _Acting as a frame for our wordcloud: Colosseum (in a more contemporary conditio
 Now, the picture changes (both literally and with regards to the data). Greek themes are still present, but now themes of the Roman world are most dominant - including a lot of names ending with the latin suffix "-us".
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png?raw=true)
+_Network of the Philosophers of the Years 0 to 500_
 
 Number of nodes: 32 <br>
 Number of edges: 18 <br>
@@ -119,6 +121,7 @@ _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
 The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time with little to no focus on the education of common people, and some level of disregard for ideas that were not aligned with the teachings of the Bible. While this was happening, the Middle East flourished and a lot of great thinkers had the opportunity to have their ideas developed and recorded for history to remember.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph2_500_1000.png?raw=true)
+_Network of the Philosophers of the Years 500 to 1000_
 
 Number of nodes: 7 <br>
 Number of edges: 2 <br>
@@ -138,6 +141,7 @@ _Acting as a frame for our wordcloud: A Cross_
 During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians, whom also formed new interesting ideas of the time. 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true)
+_Network of the Philosophers of the Years 1000 to 1500_
 
 Number of nodes: 65 <br>
 Number of edges: 93 <br>
@@ -160,6 +164,7 @@ _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 The Renaissance marked the end of the Middle Ages with a return to some of the ideas of the Ancient Greeks. To confine this period to only last the century from year 1500 to 1600 is definitely a bit of a stretch, but we concluded "The Renaissance" was the most fitting title for this period of time[^xxx4].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true)
+_Network of the Philosophers of the Years 1500 to 1600_
 
 Number of nodes: 26 <br>
 Number of edges: 7 <br>
@@ -184,6 +189,7 @@ This was indeed the century of science. It had already started in the 16th centu
 But that's it for science at the moment! We are to continue with the philosophy. The network of the 1700th century philosophers look like this:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph5_1600_1700.png?raw=true)
+_Network of the Philosophers of the Years 1600 to 1700_
 
 Number of nodes: 41 <br>
 Number of edges: 35 <br>
@@ -205,6 +211,7 @@ _Acting as a frame for our wordcloud: Immanuel Kant_
 This section has literally _Kant_ written all over it. The Enlightenment was a period of _ideas centered on the sovereignty of reason and the evidence of the senses as the primary sources of knowledge and advanced ideals such as liberty, progress, toleration, fraternity, constitutional government and separation of church and state_[^xxx7], themes which - along with the names of the famous people of the time - are represented in the wordcloud of this period.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png?raw=true)
+_Network of the Philosophers of the Years 1700 to 1800_
 
 Number of nodes: 68 <br>
 Number of edges: 72 <br>
@@ -228,6 +235,7 @@ _Acting as a frame for our wordcloud: Industrialization_
 This is a time of great development - especially in Europe. It is also the time of imperialism, causing great pain to people falling victim to the processes, and also defining the geography of the world we inherited. This was also a time of much turmoil with the dust of the french revolution still settling - and with this a plethora of new thoughts emerging on how to run a state[^xxx10]. This was also the time of the great existentialist philosophers, who contemplated questions of ones conscient life and its meaning[^xxx9].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png?raw=true)
+_Network of the Philosophers of the Years 1800 to 1900_
 
 Number of nodes: 167 <br>
 Number of edges: 250 <br>
@@ -248,6 +256,7 @@ _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase
 Probably the most defining 50 years of history for the entire northen hemisphere. Namely because of the two world wars and the entrance of communism on the world stage of governmental systems. Focus on the _world_, the _state_ and _psychology_ becomes important topics (yet still being surpassed in frequency by _life_).
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph8_1900_1950.png?raw=true)
+_Network of the Philosophers of the Years 1900 to 1950_
 
 Number of nodes: 182 <br>
 Number of edges: 170 <br>
@@ -267,6 +276,7 @@ _Acting as a frame for our wordcloud: Technology and Stuff_
 Now we approach our time. The World Wars are over. Now the focus has become more on the _social_ and _political_ aspects of existence.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph9_1950_2000_meh.png?raw=true)
+_Network of the Philosophers of the Years 1950 to 2000_
 
 Number of nodes: 192 <br>
 Number of edges: 233 <br>
@@ -280,13 +290,12 @@ Average in degree: 1.2135 <br>
 
 This was where my personal knowledge of contemporary philosophy was tested - I'm only familiar with Foucault.
 
-## Summarizing Remarks
+# Concluding Remarks
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 _The most frequently occuring words throughout the texts of our people_
 
-Wow, such words. Very philosophy.
-The entire network looks like this:
+Through the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
 
@@ -301,7 +310,7 @@ A peculiar characteristic we noticed when analyzing the historical bins: the pro
 
 Something we didn't consider before gathering the data was the language bias of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
 
-### Surprising Finds
+### Surprising Discoveries
 
 
 ### References
