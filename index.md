@@ -30,7 +30,7 @@ Eventually we settled on the (to us) quite aesthethic compromise:
 __10 historic intervals__ which are mostly divided into centuries, with the exclusion of the time before year 1500 AD, which is divided into the intervals of 500 years until year 0, where we have binned the entire ancient philosophy from year 1000 BC to year 0 into one ancient bin. Another exception is the 20th century, which we have divided in "Pre-World War II" and "Post-World War II"; from 1900 to 1950 and 1950 to 2000 respectively.
 
 ### Network Analysis
-As mentioned e will look at how, the philosophers have influenced one another throughout time
+As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
 Without further ado, let's examine the history of philosophy:
 
@@ -43,35 +43,74 @@ The most prominent themes of this period is, as one would expect, very centered 
 
 ![image](https://-5000_0_network)
 
+Number of nodes: 53
+Number of edges: 90
+Average degree: 1.6981
+
 Most influential persons of the period:
-- Aristotle (likely the most influential philosopher of all time, having directly influenced 90 out of 833 philosophers in the network)
 - Plato
 - Sokrates
+- Aristotle (likely the most influential philosopher of all time - but we'll get back to that)
+
+As expected a very interwoven network of philosophers.
 
 ## Age of the Roman Empire: Year 0-500
-
-
 
 ![image](https://0_500_wordcloud)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
 
-
+Now, the picture changes (both literally and regarding the data).
 
 ![image](https://0_500_network)
+
+Number of nodes: 32
+Number of edges: 18
+Average degree: 0.5625
+
+- Plotinus
+- Proclus
+- Pseudo-Dionysius the Areopagite
+
+The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire - names ending with the latin suffix "-us" and quite a lot of persons named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots.
 
 ## The Islamic Golden Age: Year 500-1000
 
 ![image](https://500_1000_wordcloud)
 _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
 
+The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time with little to no focus on the education of common people, and some level of disregard for ideas that were not aligned with the teachings of the Bible. While this was happening, the Middle East flourished and a lot of great thinkers had the opportunity to have their ideas developed and recorded for history to remember.
+
 ![image](https://500_1000_network)
+
+Number of nodes: 7
+Number of edges: 2
+Average degree: 0.2857
+
+- Al-Farabi
+- Yahya ibn Adi
+- Al-Kindi
+
+As expected all of the (although few) philosophers are from the Arab world (present day Syria, Iraq and Iraq respectively). Compared to the other historic time spans, this is very deprived of philosophers. A reason for this could be a cultural skew of our analysis: we have only analyzed english wikipedia-pages, which will likely have a tendency towards having more elaborate information on persons from the Anglo-Saxon and Western world - and during this time period, the Anglo-Saxon and Western world was not the epicenter of historic progress, mildly speaking.
 
 ## Late Middle Ages: Year 1000-1500
 
 ![image](https://1000_1500_wordcloud)
 _Acting as a frame for our wordcloud: A Cross_
 
+During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians.
+
 ![image](https://1000_1500_network)
+
+Number of nodes: 65
+Number of edges: 93
+Average degree:   1.4308
+
+- Averroes
+- William of Ockham
+- Thomas Aquinas
+- Avicenna
+
+Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. 
 
 ## The Renaissance: Year 1500-1600
 
@@ -79,6 +118,16 @@ _Acting as a frame for our wordcloud: A Cross_
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
 ![image](https://1500_1600_network)
+
+Number of nodes: 26
+Number of edges: 7
+Average degree: 0.2692
+
+- Michel de Montaigne
+- Pierre Charron
+- Francis Bacon
+- Paracelsus
+
 
 ## The Scientific Revolution: Year 1600-1700
 
@@ -127,5 +176,14 @@ _Acting as a frame for our wordcloud: Technology and Stuff_
 
 ### Interconnectedness
 
-A peculiar characteristic we noticed when analyzing the historical bins: the 
+A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied wildly.
+
+![image](https://p_of_Qs)
+
+### An Unexpected Bias
+
+Something we didn't consider before gathering the data was the language bais of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
+
+
+
 
