@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: A Brief History of Philosophy
 feature_text: |
   ## Philosophy and Data Analysis
   A quick peak into a vast field of though
@@ -7,9 +7,11 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved. We are interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved a all. If it in, one way or another, correlates with renowned periods history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
+# Introduction
 
-In addition to that we will look at how, the philosophers have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
+We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved. Especially whom the most influential people have been in this development - those who have made the greatest impact on subsequent thinkers. We are also interested in, how the sentiment of philosophy has evolved over time. Whether is has notably evolved at all. If it in, one way or another, correlates with renowned periods history, and maybe even whether philosophers are a driving force in the development of society or whether they are mere products of their time representing the contemporary ideas.
+
+In addition to that we will look at how the philosophers (among other influential individuals) have influenced one another throughout time - and whether mutual influence have created anachronical _communities_ in the history of philosophy.
 
 
 # The History of Philosophy
@@ -46,20 +48,16 @@ The most prominent themes of this period is, as one would expect, very centered 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true)
 
-<div class="aside">
 Number of nodes: 53 <br>
 Number of edges: 90 <br>
 Average degree: 1.6981 <br>
-</div>
 
-<div class="aside">
 Most influential persons of the period:
 - Plato _(15)_
 - Sokrates _(10)_
 - Aristotle (likely the most influential philosopher of all time - but we'll get back to that) _(9)_
-</div>
 
-As expected a very interwoven network of philosophers.
+The number succeeding the name is the degree of the philosopher in this subsection of the whole network. As expected we see a very interwoven network of (predominantly Greek) philosophers with Plato and Aristotle - and Sokrates - as very influential figures.
 
 ## Age of the Roman Empire: Year 0-500
 
@@ -70,17 +68,13 @@ Now, the picture changes (both literally and with regards to the data). Greek th
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png?raw=true)
 
-<div class="aside">
 Number of nodes: 32 <br>
 Number of edges: 18 <br>
 Average degree: 0.5625 <br>
-</div>
 
-<div class="aside">
 - Plotinus _(6)_
 - Proclus _(4)_
 - Pseudo-Dionysius the Areopagite _(4)_
-</div>
 
 The time of the ancient Greek philosophers has peaked, but the Greek presence is still very prominent. There has been a significant increase in names relating to the Roman Empire. Together with names ending with the latin suffix "-us" (like the themes in the wordcloud), quite a lot of persons are named "of Alexandria" (although located in Egypt, Alexandria was a flourishing part of the Roman Empire - until 641 AD, but that's a different story). The three most influential persons of the time are people we have never heard of (which in itself is interesting), they all have Greek roots indicating the Greeks still had a great impact on the ideas of the Roman world.
 
@@ -95,17 +89,13 @@ The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph2_500_1000.png?raw=true)
 
-<div class="aside">
 Number of nodes: 7 <br>
 Number of edges: 2 <br>
 Average degree: 0.2857 <br>
-</div>
 
-<div class="aside">
 - Al-Farabi _(2)_
 - Yahya ibn Adi _(1)_
 - Al-Kindi _(1)_
-</div>
 
 As expected all of the (although few) philosophers are from the Arab world (present day Syria, Iraq and Iraq respectively). Compared to the other historic time spans, this is very deprived of philosophers. A reason for this could be a cultural skew of our analysis: we have only analyzed english wikipedia-pages, which will likely have a tendency towards having more elaborate information on persons from the Anglo-Saxon and Western world - and during this time period, the Anglo-Saxon and Western world was not the epicenter of historic progress, mildly speaking.
 
@@ -118,18 +108,14 @@ During this time the Catholic Church has become very prosperous, and teachings o
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true)
 
-<div class="aside">
 Number of nodes: 65 <br>
 Number of edges: 93 <br>
 Average degree: 1.4308 <br>
-</div>
 
-<div class="aside">
 - Averroes _(14)_
 - William of Ockham _(12)_
 - Thomas Aquinas _(12)_
 - Avicenna _(10)_
-</div>
 
 Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is very renowned.
 
@@ -169,7 +155,7 @@ Average degree: 0.8537 <br>
 - John Locke _(5)_
 - Thomas Hobbes _(5)_
 
-Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all.
+Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. Then there is Hugo Grotius
 
 
 ## Peak Enlightenment: Year 1700-1800 
@@ -190,6 +176,10 @@ Average in degree: 1.0588 <br>
 - Joseph Butler _(8)_
 - Thomas Paine _(7)_
 - Voltaire _(7)_
+
+We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of  
+
+
 
 ## Industrialization: Year 1800-1900
 
@@ -257,8 +247,14 @@ A peculiar characteristic we noticed when analyzing the historical bins: the pro
 
 ### An Unexpected Bias
 
-Something we didn't consider before gathering the data was the language bais of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
+Something we didn't consider before gathering the data was the language bias of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
 
+
+
+
+### References
+
+[^xxx1] : https://en.wikipedia.org/wiki/Thomas_Paine
 
 
 
