@@ -123,8 +123,8 @@ navigation_header:
   url: /
 - title: Data source
   url: /dataSource/
-- title: Data Analysis
-  url: /dataAnalysis/
+- title: Download data
+  url: https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/data/
 - title: Notebook
   url: /notebook/
 
