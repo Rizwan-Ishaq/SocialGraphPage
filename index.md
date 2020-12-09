@@ -7,7 +7,7 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data. Each section contains a visualization of the most frequent, unique words of the philosophers of the time, and a visualization of the network of the influence each person have had on one another in the historic period. 
+Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a _time line_, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data. Each section contains a visualization of the most frequent, unique words of the philosophers of the time, and a visualization of the network of the influence each person have had on one another in the historic period. 
 
 # Overview
 - [__Introduction__](#introduction)
@@ -57,7 +57,7 @@ Before we start, we present an elaboration on some of our thoughts about the dat
 
 <h3 id="source_of_the_data">Source of the Data</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx][1](#references). The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
+To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[[1](#references)]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
 
 
 <h3 id="convenient_binning_of_the_data">Convenient Binning of the Data</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -179,7 +179,7 @@ Average degree: 1.4308 <br>
 - Thomas Aquinas _(12)_
 - Avicenna _(10)_
 
-Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_. Then there's of course Thomas Aquinas, who is a very renowned thinker ... who also fits perfectly on the stereotype of European thinkers of the time, being a catholic priest and a theologian[^xxx6].
+Yet, the Islamic Golden age is by no means over: Averroes is the latinized version of _Ibn Rushd_, and Avicenna is the latinized version of _Ibn Sina_[[2,3](#references)]. Then there's of course Thomas Aquinas, who is a very renowned thinker ... who also fits perfectly on the stereotype of European thinkers of the time, being a catholic priest and a theologian[[4](#references)].
 
 With this number of nodes in the network, the visualizations start to become a little difficult to read, but we have made an attempt to have a high enough resolution to at least be able to see the names of the most prominent nodes when zooming in. They should all look pretty decent when zooming in.
 
@@ -189,7 +189,7 @@ With this number of nodes in the network, the visualizations start to become a l
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1500-1600.png?raw=true)
 _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 
-The Renaissance marked the end of the Middle Ages with a return to some of the ideas of the Ancient Greeks. To confine this period to only last the century from year 1500 to 1600 is definitely a bit of a stretch, but we concluded "The Renaissance" was the most fitting title for this period of time[^xxx4].
+The Renaissance marked the end of the Middle Ages with a return to some of the ideas of the Ancient Greeks. To confine this period to only last the century from year 1500 to 1600 is definitely a bit of a stretch, but we concluded "The Renaissance" was the most fitting title for this period of time[[5](#references)].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true)
 _Network of the Philosophers of the Years 1500 to 1600_
@@ -229,7 +229,7 @@ Average degree: 0.8537 <br>
 - John Locke _(5)_
 - Thomas Hobbes _(5)_
 
-Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. One thing that may have settled Descartes' place in the top is his influence on both philosophy and science, as he was involved both. Especially math with regards to science[^xxx3]. Then there is Hugo Grotius, who was a dutch humanist, diplomat, lawyer, theologian, jurist, poet and playwright[^xxx2]. We had never heard of him, but he apparantly had great impact on the philosophers of his time.
+Regarding philosophers this period is dominated by Rene Descartes. Being the genius he was, this is not unexpected at all. He also has a significantly higher degree than the runner ups, of which Locke and Hobbes are pretty well-known individuals. One thing that may have settled Descartes' place in the top is his influence on both philosophy and science, as he was involved both. Especially math with regards to science[[6](#references)]. Then there is Hugo Grotius, who was a dutch humanist, diplomat, lawyer, theologian, jurist, poet and playwright[[7](#references)]. We had never heard of him, but he apparantly had great impact on the philosophers of his time.
 
 
 <h2 id="peak_enlightenment">Peak Enlightenment: Year 1700-1800</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -237,7 +237,7 @@ Regarding philosophers this period is dominated by Rene Descartes. Being the gen
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1700-1800.png?raw=true)
 _Acting as a frame for our wordcloud: Immanuel Kant_
 
-This section has literally _Kant_ written all over it. The Enlightenment was a period of _ideas centered on the sovereignty of reason and the evidence of the senses as the primary sources of knowledge and advanced ideals such as liberty, progress, toleration, fraternity, constitutional government and separation of church and state_[^xxx7], themes which - along with the names of the famous people of the time - are represented in the wordcloud of this period.
+This section literally has _Kant_ written all over it. The Enlightenment was a period of _ideas centered on the sovereignty of reason and the evidence of the senses as the primary sources of knowledge and advanced ideals such as liberty, progress, toleration, fraternity, constitutional government and separation of church and state_[[8](#references)], themes which - along with the names of the famous people of the time - are represented in the wordcloud of this period.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png?raw=true)
 _Network of the Philosophers of the Years 1700 to 1800_
@@ -253,7 +253,7 @@ Average in degree: 1.0588 <br>
 - Thomas Paine _(7)_
 - Voltaire _(7)_
 
-We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1][2](#references), here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[3](#references), which indeed would explain his notoriety.
+We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[[9](#references)], here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[[10](#references)], which indeed would explain his notoriety.
 
 
 <h2 id="industrialization">Industrialization: Year 1800-1900</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -261,7 +261,7 @@ We picked the frame for the wordcloud even before we knew this result: of course
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/1800-1900.png?raw=true)
 _Acting as a frame for our wordcloud: Industrialization_
 
-This is a time of great development - especially in Europe. It is also the time of imperialism, causing great pain to people falling victim to the processes, and also defining the geography of the world we inherited. This was also a time of much turmoil with the dust of the french revolution still settling - and with this a plethora of new thoughts emerging on how to run a state[^xxx10]. This was also the time of the great existentialist philosophers, who contemplated questions of ones conscient life and its meaning[^xxx9].
+This is a time of great development - especially in Europe. It is also the time of imperialism, causing great pain to people falling victim to the processes, and also defining the geography of the world we inherited. This was also a time of much turmoil with the dust of the french revolution still settling - and with this a plethora of new thoughts emerging on how to run a state[[11,12](#references)]. This was also the time of the great existentialist philosophers, who contemplated questions of ones conscient life and its meaning[[13](#references)].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png?raw=true)
 _Network of the Philosophers of the Years 1800 to 1900_
@@ -275,7 +275,7 @@ Average degree: 1.4970 <br>
 - Charles Darwin _(17)_
 - John Stuart Mill _(16)_
 
-John Stuart Mill and Karl Marx were not unexpected to have present on this list. Marx did write the Communist Manifesto in this century - a book that without doubt has had a great impact on the world. Slightly unexpected is it to see Darwin as one of the most influential thinkers of the time. Yet, when considering the still largely christian population of Europe and how radical his ideas presented in _Origin of the Species_. Then there is William James as the - for this period - most influential person. He is conseridered _The Father of American psychology_[^xxx1], which of course puts him in place as important (yet he was until this very moment unbeknownst to me). 
+John Stuart Mill and Karl Marx were not unexpected to have present on this list. Marx did write the Communist Manifesto in this century - a book that without doubt has had a great impact on the world. Slightly unexpected is it to see Darwin as one of the most influential thinkers of the time. Yet, when considering the still largely christian population of Europe and how radical his ideas presented in _Origin of the Species_. Then there is William James as the - for this period - most influential person. He is conseridered _The Father of American psychology_[[14](#references)], which of course puts him in place as important (yet he was until this very moment unbeknownst to me). 
 
 
 <h2 id="beginning_of_contemporary_history">Beginning of Contemporary History: Year 1900-1950</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -379,7 +379,7 @@ Before we began working on this project we had a theory: We assumed the sentimen
 We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true)
-_Figure xxx: Distribution of Sentiment Values_
+_Figure xx: Distribution of Sentiment Values_
 
 To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
 
@@ -414,7 +414,7 @@ The average sentiment value of the philosophers of the historic periods was larg
 One of the key aspect in this conclusion is the change in sentiment over time:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot3.png?raw=true)
-_Figure xxx: Evolution in Sentiment of Philosophers (x-axis not to scale)_
+_Figure xx: Evolution in Sentiment of Philosophers (x-axis not to scale)_
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
@@ -428,6 +428,7 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 <h1 id="achronological_communities">Achronological Communities</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
+
 <h3 id="references">References</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
@@ -437,25 +438,17 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 - [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/List_of_philosophers_(I%E2%80%93Q) "Philosophers (I-Q)")
 - [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/List_of_philosophers_(R%E2%80%93Z) "Philosophers (R-Z)")
 
-[^xxx1][2] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
-
-[3] : [Christian Wolff](https://en.wikipedia.org/wiki/Christian_Wolff_(philosopher) "Christian Wolff's Wikipedia-page")
-
-[^xxx2] : [Hugo Grotius](https://en.wikipedia.org/wiki/Hugo_Grotius "Hugo Grotius's Wikipedia-page")
-
-[^xxx3] : [Rene Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes "Rene Descartes' Wikipedia-page")
-
-[^xxx4] : [Renaissance](https://en.wikipedia.org/wiki/Renaissance "The Renaissance's Wikipedia-page")
-
-[^xxx6] : [Thomas Aquinas](https://en.wikipedia.org/wiki/Thomas_Aquinas "Thomas Aquinas Wikipedia-page")
-
-[^xxx7] : [Age of Enlightenment](https://en.wikipedia.org/wiki/Age_of_Enlightenment "The Age_of_Enlightenment's Wikipedia-page")
-
-[^xxx8] : [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution "The Industrial Revolution's Wikipedia-page")
-
-[^xxx9] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page")
-
-[^xxx10] : [19th century](https://en.wikipedia.org/wiki/19th_century "19th_century's Wikipedia-page")
-
-[^xxx11] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page")
+[2] : [Averroes](https://en.wikipedia.org/wiki/Averroes "Averroes' Wikipedia-page") <br>
+[3] : [Avicenna](https://en.wikipedia.org/wiki/Avicenna "Avicenna's Wikipedia-page") <br>
+[4] : [Thomas Aquinas](https://en.wikipedia.org/wiki/Thomas_Aquinas "Thomas Aquinas' Wikipedia-page") <br>
+[5] : [Renaissance](https://en.wikipedia.org/wiki/Renaissance "The Renaissance's Wikipedia-page") <br>
+[6] : [Rene Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes "Rene Descartes' Wikipedia-page") <br>
+[7] : [Hugo Grotius](https://en.wikipedia.org/wiki/Hugo_Grotius "Hugo Grotius's Wikipedia-page") <br>
+[8] : [Age of Enlightenment](https://en.wikipedia.org/wiki/Age_of_Enlightenment "The Age_of_Enlightenment's Wikipedia-page") <br>
+[9] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page") <br>
+[10] : [Christian Wolff](https://en.wikipedia.org/wiki/Christian_Wolff_(philosopher) "Christian Wolff's Wikipedia-page") <br>
+[11] : [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution "The Industrial Revolution's Wikipedia-page") <br>
+[12] : [19th century](https://en.wikipedia.org/wiki/19th_century "19th_century's Wikipedia-page") <br>
+[13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
+[14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
 
