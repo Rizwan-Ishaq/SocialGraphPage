@@ -495,12 +495,16 @@ Plato and Aristotle have had so much impact on subsequent thinkers that they - i
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png) 
 _Network of the Philosophers "Impacted by Kant's Ideas"_
 
-As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This 
+As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This would probably be what we would expect, but it is quite fascinating to be confirmed in our assumptions.
 
 <h4 id="ac04">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png) 
 _Network of the Philosophers "Impacted by Marx' Ideas"_
+
+Here, the image is almost a replica of the previous
+
+There is a general trend of the philosophers of this community being associated with political ideas: Marx (of course), Lenin, Trotsky and Althusser (whom we have studied a bit since last time he was mentioned) are all all-timers of this community, and are all very much concerned with political matters.
 
 <h4 id="ac05">Eastern Philosophy</h4>
 
@@ -527,7 +531,7 @@ These findings have made us extend our list of further reading:
 - Edmund Husserl
 - 16th century philosophers, especially Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
-
+- Who was Alan Watts, and how was he influenced by eastern philosophy?
 - What Wittgenstein, Hume, Russell, Schopenhauer, Putnam, Frege and Berkeley have in common
 
 <h3 id="the_end">The End</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
