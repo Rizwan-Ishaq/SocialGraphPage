@@ -28,14 +28,18 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Current Historic Period: Year 1950 until Now__](#current_historic_period)
     - [__The Entire History of Philosophy: Pre-History - Now__](#the_entire_history_of_philosophy)
 - [__Concluding Remarks__](#concluding_remarks)
+    - [__Scale-Free Properties of the Network__](#scale_free_properties_of_the_network)
     - [__Interconnectedness__](#interconnectedness)
-    - [__An Unexpected Bias__](#an_unexpected_bias)
+    - [__Unexpected Biases__](#unexpected_biases)
     - [__Surprising Discoveries__](#surprising_discoveries)
     - [__Further Reading__](#further_reading)
 - [__The Sentiment of Philosophy Throughout History__](#the_sentiment_of_philosophy_throughout_history)
 - [__Achronological Communities__](#achronological_communities)
 - [__Extended Further Reading__](#extended_further_reading)
 - [__References__](#references)
+
+
+
 
 <h1 id="introduction">Introduction</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -376,7 +380,7 @@ A peculiar characteristic we noticed when analyzing the historical bins: the pro
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/connected_p.png?raw=true)
 
-<h3 id="an_unexpected_bias">An Unexpected Bias</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h3 id="unexpected_biases">Unexpected Biases</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 Something we didn't consider before gathering the data was the language bias of the data: western philosophers and people from the Anglo-Saxon history seems to be slightly over-represented - which in hindsight does make perfect sense, but we were only to realize this in the late phase of the analysis. To improve the analysis, a more broad gathering of data should be performed.
 
