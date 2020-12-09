@@ -121,8 +121,6 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Data source
-  url: /dataSource/
 - title: Download data
   url: https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/data/
 - title: Notebook
