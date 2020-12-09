@@ -80,7 +80,7 @@ Ideally the binning would also encapsulate the movements of history; in an ideal
 No matter the cause of the rise in number of philosophers over time, we can conclude, that the number increases exponentially as we close in on the present.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Number_o_phils.png?raw=true) <br>
-_Figure 1: The number of philosophers_
+_Figure 1: The number of philosophers_ <br>
 
 Now, back to the issue of _binning_ this data: If we were to bin the entire data set with a fixed interval, we would bin a very large portion of the philosophers in very few bins. Correspondingly we would have a lot of bins with very few philosophers or none at all. Since a substantial part of our analysis is based on the statistics and emergent phenomena of a collection of philosophers, having to analyze a lot of bins with very little data makes no sense - the bins have to contain some minimum number of data. This could be prevent having mathematically projected non-fixed intervals, but that would likely conflict with one of the prime ideals: attempting to make the bins resemble historic periods.
 
@@ -100,7 +100,7 @@ As mentioned we will look at how, the philosophers have influenced one another t
 
 We will use this color scheme to distinguish philosophers of different time periods:
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/color_legend.png?raw=true) <br>
-_Figure 2: Color Scheme of the Networks of the Time Line_
+_Figure 2: Color Scheme of the Networks of the Time Line_ <br>
 
 
 Without further ado, let's examine the history of philosophy:
@@ -118,7 +118,7 @@ _Acting as a frame for our wordcloud: Parthenon_
 The most prominent themes of this period is, as one would expect, very centered around the greek world. There are a number of Chinese philosophers (Confucius for one), but they are greatly outnumbered by the Greeks (in our list), whom also had a grand tradition for practicing philosophy, thus producing a proportionally very large number of philosophers for the time.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph0_pre_0_meh.png?raw=true) <br>
-_Network of the Philosophers of the Years Before 0 AD_
+_Network of the Philosophers of the Years Before 0 AD_ <br>
 
 Number of nodes: 53 <br>
 Number of edges: 90 <br>
@@ -140,7 +140,7 @@ _Acting as a frame for our wordcloud: Colosseum (in a more contemporary conditio
 Now, the picture changes (both literally and with regards to the data). Greek themes are still present, but now themes of the Roman world are most dominant - including a lot of names ending with the latin suffix "-us".
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph1_0_500.png?raw=true) <br>
-_Network of the Philosophers of the Years 0 to 500_
+_Network of the Philosophers of the Years 0 to 500_ <br>
 
 Number of nodes: 32 <br>
 Number of edges: 18 <br>
@@ -163,7 +163,7 @@ _Acting as a frame for our wordcloud: A Mosque in front of a Crescent_
 The Roman Empire was crumbling, and Europe delved into the Middle Ages - a time with little to no focus on the education of common people, and some level of disregard for ideas that were not aligned with the teachings of the Bible. While this was happening, the Middle East flourished and a lot of great thinkers had the opportunity to have their ideas developed and recorded for history to remember.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph2_500_1000.png?raw=true) <br>
-_Network of the Philosophers of the Years 500 to 1000_
+_Network of the Philosophers of the Years 500 to 1000_ <br>
 
 Number of nodes: 7 <br>
 Number of edges: 2 <br>
@@ -184,7 +184,7 @@ _Acting as a frame for our wordcloud: A Cross_
 During this time the Catholic Church has become very prosperous, and teachings of the Bible were vividly studied by theologians, whom also formed new interesting ideas of the time. 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph3_1000_1500.png?raw=true) <br>
-_Network of the Philosophers of the Years 1000 to 1500_
+_Network of the Philosophers of the Years 1000 to 1500_ <br>
 
 Number of nodes: 65 <br>
 Number of edges: 93 <br>
@@ -208,7 +208,7 @@ _Acting as a frame for our wordcloud: Da Vinci's Vitruvian Man_
 The Renaissance marked the end of the Middle Ages with a return to some of the ideas of the Ancient Greeks. To confine this period to only last the century from year 1500 to 1600 is definitely a bit of a stretch, but we concluded "The Renaissance" was the most fitting title for this period of time[[5](#references)].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph4_1500_1600.png?raw=true) <br>
-_Network of the Philosophers of the Years 1500 to 1600_
+_Network of the Philosophers of the Years 1500 to 1600_ <br>
 
 Number of nodes: 26 <br>
 Number of edges: 7 <br>
@@ -234,7 +234,7 @@ This was indeed the century of science. It had already started in the 16th centu
 But that's it for science at the moment! We are to continue with the philosophy. The network of the 1700th century philosophers look like this:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph5_1600_1700.png?raw=true) <br>
-_Network of the Philosophers of the Years 1600 to 1700_
+_Network of the Philosophers of the Years 1600 to 1700_ <br>
 
 Number of nodes: 41 <br>
 Number of edges: 35 <br>
@@ -256,7 +256,7 @@ _Acting as a frame for our wordcloud: Immanuel Kant_
 This section literally has _Kant_ written all over it. The Enlightenment was a period of _ideas centered on the sovereignty of reason and the evidence of the senses as the primary sources of knowledge and advanced ideals such as liberty, progress, toleration, fraternity, constitutional government and separation of church and state_[[8](#references)], themes which - along with the names of the famous people of the time - are represented in the wordcloud of this period.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph6_1700_1800.png?raw=true) <br>
-_Network of the Philosophers of the Years 1700 to 1800_
+_Network of the Philosophers of the Years 1700 to 1800_ <br>
 
 Number of nodes: 68 <br>
 Number of edges: 72 <br>
@@ -280,7 +280,7 @@ _Acting as a frame for our wordcloud: Industrialization_
 This is a time of great development - especially in Europe. It is also the time of imperialism, causing great pain to people falling victim to the processes, and also defining the geography of the world we inherited. This was also a time of much turmoil with the dust of the french revolution still settling - and with this a plethora of new thoughts emerging on how to run a state[[11,12](#references)]. This was also the time of the great existentialist philosophers, who contemplated questions of ones conscient life and its meaning[[13](#references)].
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph7_1800_1900_meh.png?raw=true) <br>
-_Network of the Philosophers of the Years 1800 to 1900_
+_Network of the Philosophers of the Years 1800 to 1900_ <br>
 
 Number of nodes: 167 <br>
 Number of edges: 250 <br>
@@ -302,7 +302,7 @@ _Acting as a frame for our wordcloud: An Artistic Interpretation of Rubin's Vase
 Probably the most defining 50 years of history for the entire northen hemisphere. Namely because of the two world wars and the entrance of communism on the world stage of governmental systems. Focus on the _world_, the _state_ and _psychology_ becomes important topics (yet still being surpassed in frequency by _life_).
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph8_1900_1950.png?raw=true) <br>
-_Network of the Philosophers of the Years 1900 to 1950_
+_Network of the Philosophers of the Years 1900 to 1950_ <br>
 
 Number of nodes: 182 <br>
 Number of edges: 170 <br>
@@ -323,7 +323,7 @@ _Acting as a frame for our wordcloud: Technology and Stuff_
 Now we approach our time. The World Wars are over. Now the focus has become more on the _social_ and _political_ aspects of existence.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/Subgraph9_1950_2000_meh.png?raw=true) <br>
-_Network of the Philosophers of the Years 1950 to 2000_
+_Network of the Philosophers of the Years 1950 to 2000_ <br>
 
 Number of nodes: 192 <br>
 Number of edges: 233 <br>
@@ -347,7 +347,7 @@ _The most frequently occuring words throughout the texts of our people_
 Throughout the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true) <br>
-_Network of the most influential Philosophers of all time_
+_Network of the most influential Philosophers of all time_ <br>
 
 Number of nodes: 833 <br>
 Number of edges: 2389 <br>
@@ -378,7 +378,7 @@ Some interesting aspects of the data arises, when we take a closer look...
 Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free_dir.png?raw=true) <br>
-_Figure 3: The Out-Degree Distribution of the Entire Network on a log-log-scale_
+_Figure 3: The Out-Degree Distribution of the Entire Network on a log-log-scale_ <br>
 
 Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_), and there is indeed a linear tendency in the log-log-distribution of the degrees of the philosophers. This means the network likely has scale-free properties, which is an interesting aspect of network science. _"The term 'scale-free' is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s"_[[16](#references)].
 
@@ -389,7 +389,7 @@ This could indicate
 A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied vividly, but had a general decline. We attribute this to the record keeping and/or education scarcity; only the most influential philosophers got to be remembered by time, and were able to be granted the honor of having a Wikipedia-page - and in times with scarce educational resources, renowned thinkers were more likely to influence one another. Today there has never been more philosophers worthy of a Wikipedia-page alive, but the likelihood of them influencing each other is declining. It's like the strange situation we're facing with regards to reading: never have there been such a steep decline in people reading books, yet more books are being printed than ever before.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/connected_p.png?raw=true) <br>
-_Figure 4: Connection Probability of the Networks_
+_Figure 4: Connection Probability of the Networks_ <br>
 
 <h3 id="unexpected_biases">Unexpected Biases</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -422,7 +422,7 @@ Before we began working on this project we had a theory: We assumed the sentimen
 We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true) <br>
-_Figure 5: Distribution of Sentiment Values_
+_Figure 5: Distribution of Sentiment Values_ <br>
 
 To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
 
@@ -457,7 +457,7 @@ The average sentiment value of the philosophers of the historic periods was larg
 One of the key aspect in this conclusion is the change in sentiment over time:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot4.png?raw=true) <br>
-_Figure 6: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
+_Figure 6: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_ <br>
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
@@ -478,7 +478,7 @@ The number of communties is not completely constant throughout iterations. It us
 <h4 id="ac01">The Ancient Greek World</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png?raw=true) <br>
-_Network of the Philosophers of the "The Ancient Greek World"_
+_Network of the Philosophers of the "The Ancient Greek World"_ <br>
 
 First of all we have a community in which a large part of the ancient greeks are represented. This was pretty much to be expected - they influenced one another, and being separated from the rest of the history by the Middle Ages, it makes a lot of sense for them to being a community in the network. Interestingly though, is it that Plato and Aristotle is not a part of this community.
 
@@ -486,21 +486,21 @@ First of all we have a community in which a large part of the ancient greeks are
 <h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png?raw=true) <br>
-_Network of the Philosophers Subject to "The Time-Transcending Influence of Plato and Aristotle"_
+_Network of the Philosophers Subject to "The Time-Transcending Influence of Plato and Aristotle"_ <br>
 
 Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history, than the community of the ancient Greeks. The more you examine this group, the more diverse it seems. Apart from Plato and Aristotle claiming the majority of the spotlight, philosophers like Descartes, Hobbes, Aquinas, Francis Bacon - and Isaac Newton are in this community. One general denominator is that there are very few philosopher from past the 17th century - with a seemingly majority of philosophers from the Middle Ages (the two groups from the years 500 to 1500).
 
 <h4 id="ac03">The Impact of Kant</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png?raw=true) <br>
-_Network of the Philosophers "Impacted by Kant's Ideas"_
+_Network of the Philosophers "Impacted by Kant's Ideas"_ <br>
 
 As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This would probably be what we would expect, but it is quite fascinating to be confirmed in our assumptions.
 
 <h4 id="ac04">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png?raw=true) <br>
-_Network of the Philosophers "Impacted by Marx' Ideas"_
+_Network of the Philosophers "Impacted by Marx' Ideas"_ <br>
 
 Here, the image is almost a replica of the previous
 
@@ -509,15 +509,14 @@ There is a general trend of the philosophers of this community being associated 
 <h4 id="ac05">Eastern Philosophy</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png?raw=true) <br>
-
-_Network of "Eastern Philosophy"_
+_Network of "Eastern Philosophy"_ <br>
 
 A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture. Apparently philosopher Alan Watts was very influenced by eastern ideas - we have only seen him being part of this community.
 
 <h4 id="ac06">A Community of Mystery</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png?raw=true) <br>
-_Network of the Philosophers Connected by "Mystery"_
+_Network of the Philosophers Connected by "Mystery"_ <br>
 
 Now, this community - which is very persistent throughout the partitions made by the Louvain - is mainly made up of philosophers from 20th century and contains a great variety of well-known individuals. Wittgenstein, Hume, Russell, Gettier, Putnam and Frege are integral parts of this community. They likely share common ideas making this a - if not strictly labelled branch of philosophy (and we are not sure that it is not) - then an inherent network analysis-based branch of philosophy. We will get back to that in Version 2.0.
 
