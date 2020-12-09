@@ -7,7 +7,7 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data.
+Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a time line, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data. Each section contains a visualization of the most frequent, unique words of the philosophers of the time, and a visualization of the network of the influence each person have had on one another in the historic period. 
 
 # Overview
 - [__Introduction__](#introduction)
@@ -57,7 +57,7 @@ Before we start, we present an elaboration on some of our thoughts about the dat
 
 <h3 id="source_of_the_data">Source of the Data</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
+To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx][1](#references). The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
 
 
 <h3 id="convenient_binning_of_the_data">Convenient Binning of the Data</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -253,7 +253,7 @@ Average in degree: 1.0588 <br>
 - Thomas Paine _(7)_
 - Voltaire _(7)_
 
-We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1], here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[^xxx1], which indeed would explain his notoriety.
+We picked the frame for the wordcloud even before we knew this result: of course Kant would be essential to this time period. Being the philosophical equivalent of Copernicus (or in terms of impact, more like Newton) in the history of science, Kant would, not surprisingly, be one of the most influential people of the time. It's not surprising to see Hume and Voltaire in the list as well - and thinking of the history of the Americas, it's not surprising to find Thomas Paine, whose writings had a lot of impact on the American Revolutionary War[^xxx1][2](#references), here as well. Surprising though is the presence of Christian Wolff, who is unfamiliar to us - but apparently as influential as Kant in their contemporary time. Wikipedia states that _Wolff was the most eminent German philosopher between Leibniz and Kant_[3](#references), which indeed would explain his notoriety.
 
 
 <h2 id="industrialization">Industrialization: Year 1800-1900</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -431,13 +431,15 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 <h3 id="references">References</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
-[xxx] : 
+[1] : 
 - [List of Philosophers (A-C)](https://en.wikipedia.org/wiki/List_of_philosophers_(A%E2%80%93C) "Philosophers (A-C)")
 - [List of Philosophers (D-H)](https://en.wikipedia.org/wiki/List_of_philosophers_(D%E2%80%93H) "Philosophers (D-H)")
 - [List of Philosophers (I-Q)](https://en.wikipedia.org/wiki/List_of_philosophers_(I%E2%80%93Q) "Philosophers (I-Q)")
 - [List of Philosophers (R-Z)](https://en.wikipedia.org/wiki/List_of_philosophers_(R%E2%80%93Z) "Philosophers (R-Z)")
 
-[^xxx1] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
+[^xxx1][2] : [Thomas Paine](https://en.wikipedia.org/wiki/Thomas_Paine "Thomas Paine's Wikipedia-page")
+
+[3] : [Christian Wolff](https://en.wikipedia.org/wiki/Christian_Wolff_(philosopher) "Christian Wolff's Wikipedia-page")
 
 [^xxx2] : [Hugo Grotius](https://en.wikipedia.org/wiki/Hugo_Grotius "Hugo Grotius's Wikipedia-page")
 
