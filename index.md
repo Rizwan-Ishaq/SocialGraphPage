@@ -413,13 +413,17 @@ The average sentiment value of the philosophers of the historic periods was larg
 
 One of the key aspect in this conclusion is the change in sentiment over time:
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot2.png?raw=true)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot3.png?raw=true)
 _Figure xxx_
 
+Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within the margin of error, this is likely rather hope than a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values.
 
-If we 
+If we were to conclude something with certainty, we would have had to compare our results from this sentiment analysis with a control group of (human) non-philosophers, ideally from the same time periods in history. That will have to be a topic for a Version 2.0 of this site (we did check the values of the Superheroes-Network from Assignment 2 to see, if we could use this as a control group, but our sentiment values didn't seem to differ significantly - if this was to indicate anything, it would be that the philosophers do not differ significantly with regards to sentiment ... from superheroes).
 
-(we did check the values of the Superheroes-Network from Assignment 2 to see, if we could use this as a control group, but our sentiment values didn't seem to differ significantly - if this was to indicate anything, it would be that the philosophers do not differ significantly with regards to sentiment ... from superheroes).
+Another potential topic for Version 2.0 would be to do the analysis on the works of the philosopher - instead of the texts about them, written mainly by people in the 21th century with an internet access. That would be interesting to analyze.
+
+We can safely say that we cannot prove of hypothesis, on the contrary the sentiment of the philosophers appears to be quite constant over time.
+
 
 <h1 id="achronological_communities">Achronological Communities</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
