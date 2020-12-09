@@ -1,5 +1,5 @@
 #### AdjacencyMatrix_Philosophers.zip: 
-Contains the  adjacency for the total network all philosophers the influence one another.
+Contains the adjacency matrix for the total network of all philosophers that influence one another.
 #### data_Philosophers.zip:
 Contains all the web scraped data, cleaned and additional data such as year groups, age and so on.
 #### pageContent.zip
