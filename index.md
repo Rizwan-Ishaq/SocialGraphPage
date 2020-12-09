@@ -537,7 +537,14 @@ These findings have made us extend our list of further reading:
 
 <h3 id="the_end">The End</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-Thank you very much for joining us! We hope our page was informative - we certainly learned something.
+This concludes our analysis of the history of philosophy. Something that would have been interesting to continue working with (a potential Version 2.0) would be to extend the sentiment analysis. Analyzing the philosophers we would use one or more "control group(s)" to examine how the sentiment of the philosophers compare. In addition to that it would be fascinating to test our sentiment analysis on the works of the philosophers. That would most likely yield some interesting results.
+
+And then something we have worked a little on, but haven't had the time to complete, would be to create animations (with Python) showing the "birth" of philosophers and spread of ideas, i.e. having an animated time line in which philosophers fade in, when they are born, and connect/disconnect to other philosophers as they appear/disappear, having the most persistent connection maintain (or change) color in order to show which (if any) "train of ideas" that has influenced most philosophers of history. A lot of this should of course be accompanied by corresponding network analysis.
+
+Finally it would be interesting - on a meta-level - to compare the sentiment of this website to the other submissions of Project B in Social Graphs and Interactions, 2020.
+
+Thank you very much for joining us! We hope our page was informative - we certainly learned something ourselves.
+
 
 <h3 id="list_of_figures">List of Figures</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
