@@ -477,7 +477,7 @@ The number of communties is not completely constant throughout iterations. It us
 
 <h4 id="ac01">The Ancient Greek World</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png) 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png?raw=true) 
 _Network of the Philosophers of the "The Ancient Greek World"_
 
 First of all we have a community in which a large part of the ancient greeks are represented. This was pretty much to be expected - they influenced one another, and being separated from the rest of the history by the Middle Ages, it makes a lot of sense for them to being a community in the network. Interestingly though, is it that Plato and Aristotle is not a part of this community.
@@ -485,21 +485,21 @@ First of all we have a community in which a large part of the ancient greeks are
 
 <h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png) 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png?raw=true) 
 _Network of the Philosophers Subject to "The Time-Transcending Influence of Plato and Aristotle"_
 
 Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history, than the community of the ancient Greeks. The more you examine this group, the more diverse it seems. Apart from Plato and Aristotle claiming the majority of the spotlight, philosophers like Descartes, Hobbes, Aquinas, Francis Bacon - and Isaac Newton are in this community. One general denominator is that there are very few philosopher from past the 17th century - with a seemingly majority of philosophers from the Middle Ages (the two groups from the years 500 to 1500).
 
 <h4 id="ac03">The Impact of Kant</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png) 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png?raw=true) 
 _Network of the Philosophers "Impacted by Kant's Ideas"_
 
 As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This would probably be what we would expect, but it is quite fascinating to be confirmed in our assumptions.
 
 <h4 id="ac04">The Impact of Marx</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png) 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png?raw=true) 
 _Network of the Philosophers "Impacted by Marx' Ideas"_
 
 Here, the image is almost a replica of the previous
@@ -508,7 +508,7 @@ There is a general trend of the philosophers of this community being associated 
 
 <h4 id="ac05">Eastern Philosophy</h4>
 
-<img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png" width="800" />
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png?raw=true) 
 
 _Network of "Eastern Philosophy"_
 
@@ -516,7 +516,7 @@ A community that seems to always be grouped together are the Chinese philosopher
 
 <h4 id="ac06">A Community of Mystery</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png) 
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png?raw=true) 
 _Network of the Philosophers Connected by "Mystery"_
 
 Now, this community - which is very persistent throughout the partitions made by the Louvain - is mainly made up of philosophers from 20th century and contains a great variety of well-known individuals. Wittgenstein, Hume, Russell, Gettier, Putnam and Frege are integral parts of this community. They likely share common ideas making this a - if not strictly labelled branch of philosophy (and we are not sure that it is not) - then an inherent network analysis-based branch of philosophy. We will get back to that in Version 2.0.
