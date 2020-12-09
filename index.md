@@ -35,6 +35,12 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Further Reading__](#further_reading)
 - [__The Sentiment of Philosophy Throughout History__](#the_sentiment_of_philosophy_throughout_history)
 - [__Achronological Communities__](#achronological_communities)
+    - [__The Ancient Greek World__](#ac1)
+    - [__The Time-Transcending Influence of Plato and Aristotle__](#ac2)
+    - [__The Impact of Kant__](#ac3)
+    - [__The Impact of Marx__](#ac4)
+    - [__Eastern Philosophy__](#ac5)
+    - [__The 20th Century__](#ac6)
 - [__Extended Further Reading__](#extended_further_reading)
 - [__References__](#references)
 
