@@ -92,13 +92,17 @@ thus assigning him to the bin containing philosophers from year 1800 to 1900. We
 
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
+We will use this color scheme to distinguish philosophers of different time periods:
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/color_legend.png?raw=true)
+_Figure 2: Color Scheme of the Networks of the Time Line_
+
+
 Without further ado, let's examine the history of philosophy:
 
 
 <h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
-
 
 <h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -368,7 +372,7 @@ Some interesting aspects of the data arises, when we take a closer look...
 Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free_dir.png?raw=true)
-_Figure 2: The Out-Degree Distribution of the Entire Network on a log-log-scale_
+_Figure 3: The Out-Degree Distribution of the Entire Network on a log-log-scale_
 
 Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_), and there is indeed a linear tendency in the log-log-distribution of the degrees of the philosophers. This means the network likely has scale-free properties, which is an interesting aspect of network science. _"The term 'scale-free' is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s"_[[16](#references)].
 
@@ -411,7 +415,7 @@ Before we began working on this project we had a theory: We assumed the sentimen
 We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true)
-_Figure 3: Distribution of Sentiment Values_
+_Figure 4: Distribution of Sentiment Values_
 
 To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
 
@@ -446,7 +450,7 @@ The average sentiment value of the philosophers of the historic periods was larg
 One of the key aspect in this conclusion is the change in sentiment over time:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot4.png?raw=true)
-_Figure 4: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
+_Figure 5: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
@@ -470,6 +474,13 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
 
 
+<h3 id="list_of_figures">List of Figures</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+- {1} The number of philosophers
+- {2} Color Scheme of the Networks of the Time Line
+- {3} The Out-Degree Distribution of the Entire Network on a log-log-scale
+- {4} Distribution of Sentiment Values
+- {5} Evolution in Sentiment of Philosophers
 
 <h3 id="references">References</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
