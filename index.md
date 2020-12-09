@@ -511,7 +511,7 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 [18] : [Documentation on Community](https://python-louvain.readthedocs.io/en/latest/api.html
  "Community-module Documentation")
 
-Link to this pages GitHub repository: https://github.com/Rizwan-Ishaq/SocialGraphPage
-Link to banner picture: https://park-tavern.co.uk/wp-content/uploads/sites/3/2018/02/philosophy-banner.jpg <br>
-Link to logo picture: https://www.flaticon.com/free-icon/book_2490419?term=brain&page=1&position=24&related_item_id=2490419 <br>
-Website theme for this GitHub page is based on the following repository: https://github.com/daviddarnes/alembic <br>
+Link to this pages GitHub repository: <https://github.com/Rizwan-Ishaq/SocialGraphPage> <br>
+Link to banner picture: <https://park-tavern.co.uk/wp-content/uploads/sites/3/2018/02/philosophy-banner.jpg> <br>
+Link to logo picture: <https://www.flaticon.com/free-icon/book_2490419?term=brain&page=1&position=24&related_item_id=2490419> <br>
+Website theme for this GitHub page is based on the following repository: <https://github.com/daviddarnes/alembic> <br>
