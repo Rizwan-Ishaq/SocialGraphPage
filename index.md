@@ -41,7 +41,8 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__The Impact of Marx__](#ac4)
     - [__Eastern Philosophy__](#ac5)
     - [__The 20th Century__](#ac6)
-- [__Extended Further Reading__](#extended_further_reading)
+    - [__Extended Further Reading__](#extended_further_reading)
+- [__List of Figures__](#list_of_figures)
 - [__References__](#references)
 
 
