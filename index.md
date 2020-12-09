@@ -548,11 +548,10 @@ Apart from these communities, there are some small partitions of the network, wh
 [13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
 [14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
 [15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
-[16] : [The Network Science Book](http://networksciencebook.com/chapter/4 "Network Science Book, Chapter 4")
-
-[17] : [The Network Science Book, Ch.:9](http://networksciencebook.com/chapter/9 "Network Science Book, Chapter 4")
+[16] : [The Network Science Book](http://networksciencebook.com/chapter/4 "Network Science Book, Chapter 4") <br>
+[17] : [The Network Science Book, Ch.:9](http://networksciencebook.com/chapter/9 "Network Science Book, Chapter 4") <br>
 [18] : [Documentation on Community](https://python-louvain.readthedocs.io/en/latest/api.html
- "Community-module Documentation")
+ "Community-module Documentation") <br>
 
 [Link to this pages GitHub repository](https://github.com/Rizwan-Ishaq/SocialGraphPage) <br>
 [Link to banner picture](https://park-tavern.co.uk/wp-content/uploads/sites/3/2018/02/philosophy-banner.jpg) <br>
