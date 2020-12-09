@@ -7,7 +7,7 @@ feature_image: "https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/asse
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a _time line_, first analyzing the history of philosophy in a chronological order, then digging deeper into the achronological depths of the data. Each section contains a visualization of the most frequent, unique words of the philosophers of the time, and a visualization of the network of the influence each person have had on one another in the historic period. 
+Welcome to the culmination of what we have learned from the course Social Graphs and Interactions at DTU, 2020. We have created a _time line_ inspired by the layout of [_The Network Science Book_](http://networksciencebook.com/). In this time line we first analyze the history of philosophy in a chronological order, then dig deeper into properties and achronological aspects of the data. Each section contains a visualization of the most frequent, unique words of the philosophers of the time, and a visualization of the network of the influence each person have had on one another in the historic period. 
 
 # Overview
 - [__Introduction__](#introduction)
@@ -363,12 +363,12 @@ The list of overall most influential individuals in the field of philosophy almo
 
 Some interesting aspects of the data arises, when we take a closer look...
 
-<h3 id="scale_free_properties_of_the_network">Scale Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h3 id="scale_free_properties_of_the_network">Scale-Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free_dir.png?raw=true)
-_Figure 2_
+_Figure 2: The Degree Distribution of the Entire Network on a log-log-scale_
 
 Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_)
 
