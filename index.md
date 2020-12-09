@@ -476,7 +476,7 @@ We analyzed our network to detect communities using the Louvain-algorithm. The a
 The number of communties is not completely constant throughout iterations. It usually turns out to be $15 \pm 2$. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present six of the communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together and represent some trend in the philosophical world (if the process seems interesting, feel free to check out our [_Explainer Notebook_](https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/notebook/) showing how the communities are detected).
 
 
-<h4 id="ac01">The Ancient Greek World</h4>
+<h4 id="ac1">The Ancient Greek World</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png?raw=true) <br>
 _Network of the Philosophers of the "The Ancient Greek World"_ <br>
@@ -484,21 +484,21 @@ _Network of the Philosophers of the "The Ancient Greek World"_ <br>
 First of all we have a community in which a large part of the ancient greeks are represented. This was pretty much to be expected - they influenced one another, and being separated from the rest of the history by the Middle Ages, it makes a lot of sense for them to being a community in the network. Interestingly though, is it that Plato and Aristotle is not a part of this community.
 
 
-<h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
+<h4 id="ac2">The Time-Transcending Influence of Plato and Aristotle</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png?raw=true) <br>
 _Network of the Philosophers Subject to "The Time-Transcending Influence of Plato and Aristotle"_ <br>
 
 Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history, than the community of the ancient Greeks. The more you examine this group, the more diverse it seems. Apart from Plato and Aristotle claiming the majority of the spotlight, philosophers like Descartes, Hobbes, Aquinas, Francis Bacon - and Isaac Newton are in this community. One general denominator is that there are very few philosopher from past the 17th century - with a seemingly majority of philosophers from the Middle Ages (the two groups from the years 500 to 1500).
 
-<h4 id="ac03">The Impact of Kant</h4>
+<h4 id="ac3">The Impact of Kant</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png?raw=true) <br>
 _Network of the Philosophers "Impacted by Kant's Ideas"_ <br>
 
 As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This would probably be what we would expect, but it is quite fascinating to be confirmed in our assumptions.
 
-<h4 id="ac04">The Impact of Marx</h4>
+<h4 id="ac4">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png?raw=true) <br>
 _Network of the Philosophers "Impacted by Marx' Ideas"_ <br>
@@ -507,14 +507,14 @@ Here, the image is almost a replica of the previous
 
 There is a general trend of the philosophers of this community being associated with political ideas: Marx (of course), Lenin, Trotsky and Althusser (whom we have studied a bit since last time he was mentioned) are all all-timers of this community, and are all very much concerned with political matters.
 
-<h4 id="ac05">Eastern Philosophy</h4>
+<h4 id="ac5">Eastern Philosophy</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png?raw=true) <br>
 _Network of "Eastern Philosophy"_ <br>
 
 A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture. Apparently philosopher Alan Watts was very influenced by eastern ideas - we have only seen him being part of this community.
 
-<h4 id="ac06">A Community of Mystery</h4>
+<h4 id="ac6">A Community of Mystery</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png?raw=true) <br>
 _Network of the Philosophers Connected by "Mystery"_ <br>
