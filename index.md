@@ -358,7 +358,16 @@ Through the entire history (as far as this data set concerns us) philosophy has 
 
 <h3 id="scale_free_properties_of_the_network">Scale Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-image of scale free
+Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
+
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free.png?raw=true)
+_Figure 2_
+
+The term scale-free
+
+The term “scale-free” is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s.
+
+[[16](#references)]
 
 <h3 id="interconnectedness">Interconnectedness</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -397,7 +406,7 @@ Before we began working on this project we had a theory: We assumed the sentimen
 We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true)
-_Figure 4: Distribution of Sentiment Values_
+_Figure 3: Distribution of Sentiment Values_
 
 To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
 
@@ -431,8 +440,8 @@ The average sentiment value of the philosophers of the historic periods was larg
 
 One of the key aspect in this conclusion is the change in sentiment over time:
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot3.png?raw=true)
-_Figure 5: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot4.png?raw=true)
+_Figure 4: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
@@ -470,4 +479,5 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 [13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
 [14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
 [15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
-
+[15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
+[16] : [The Network Science Book](http://networksciencebook.com/chapter/4)
