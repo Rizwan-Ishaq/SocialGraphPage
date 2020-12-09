@@ -39,7 +39,7 @@ Welcome to the culmination of what we have learned from the course Social Graphs
 
 We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved.
 
-Especially whom the most influential people have been in this development - those who have made the greatest impact on other philosophers.
+Especially whom the most influential people have been in this development - those who have made the greatest impact on other philosophers. Our theory is that the most influential philosophers are the ones whom have proposed the most radical and original ideas - and that's worth further analysis!
 
 We are also interested in, how the sentiment of philosophy has evolved over time. How it has evolved through time - if at all. Whether it, in one way or another, correlates with renowned periods of history, and maybe even whether philosophers are either greatly influenced by the their contemporary time or immune to changes in sentiment.
 
@@ -319,14 +319,15 @@ Average in degree: 1.2135 <br>
 - Cornelius Castoriadis _(13)_
 - Louis Althusser _(12)_
 
-This was where my personal knowledge of contemporary philosophy was tested - I'm only familiar with Foucault.
+This was where my personal knowledge of contemporary philosophy was tested - I'm personally only familiar with Foucault.
 
-<h1 id="concluding_remarks">Concluding Remarks</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 _The most frequently occuring words throughout the texts of our people_
 
-Through the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
+
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
 _Network of the most influential Philosophers of all time_
@@ -349,6 +350,16 @@ The top 10 of most influential philosophers throughout time are:
 
 Some of them come across quite clearly as huge planets in the universe of connections: Aristotle and Plato are the two large purple bulbs to the left (the network is designed to have people from way back in the past tend towards the right side, and people from the present tend toward the right). Kant and Marx are the large bulbs in the bottom of the network in green and yellow respectively.
 
+The list of overall most influential individuals in the field of philosophy almost looks like the result of a survey asking a number of people to name 15 philosophers they know. The list is like a Hall of Fame of philosophers. The only unexpected presences to us were William James, Sigmund Freud and Edmund Husserl. William James, we already earlier in the time line, had a great impact on the field of psychology and is regarded _The Father of American Psychology_[[14](#references)]. Sigmund Freud was unexpected - mainly because we did not realize how great an impact he had had on thinkers to succeed him, but he has without doubt been one of the most impactful people of his time. Edmund Husserl was not known to us. He was apparently the founder of the field of phenomenology[[14](#references)], which says something about our philosophic illiteracy.
+
+<h1 id="concluding_remarks">Concluding Remarks</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+Through the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
+
+<h3 id="scale_free_properties_of_the_network">Scale Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+image of scale free
+
 <h3 id="interconnectedness">Interconnectedness</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 A peculiar characteristic we noticed when analyzing the historical bins: the probability of the nodes being connected varied vividly, but had a general decline. We attribute this to the record keeping and/or education scarcity; only the most influential philosophers got to be remembered by time, and were able to be granted the honor of having a Wikipedia-page - and in times with scarce educational resources, renowned thinkers were more likely to influence one another. Today there has never been more philosophers worthy of a Wikipedia-page alive, but the likelihood of them influencing each other is declining. It's like the strange situation we're facing with regards to reading: never hve there been such a steep decline in people reading books, yet more books are being printed than ever before.
@@ -361,16 +372,23 @@ Something we didn't consider before gathering the data was the language bias of 
 
 <h3 id="surprising_discoveries">Surprising Discoveries</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-Whether or not it was a major discovery, we came to realize that we have disproportionately little knowledge of our contemporary philosophers. Hilary Putnam, Jacques Derrida, Cornelius Castoriadis and Louis Althusser were all unfamiliar names to us.
+The main surprises we encountered analyzing the networks of the different historic periods were the influence of the two persons: Hugo Grotius (of the 17th century) and Christian Wolff (of the 18th century). Grotius surpassing Locke and Hobbes and with an incredibly extensive field of interest has to be an interesting person to learn more about. Likewise Wolff, rivalling Kant in being the most influential person of the 18th century and being _the most eminent German philosopher between Leibniz and Kant_[[10](#references)] has to make his ideas worth a read. It was also a major discovery to learn about Edmun Husserl, who seems to have had some essential ideas to modern philosophy. Yet he had eluded our knownledge of philosophy - until now.
 
-Something that came across as quite surprising was the total absence of women in the among the most influential philosophers - not even in the more recent periods of history (I had a small glimpse of hope, when I saw the name _Hilary Putnam_ - but I was too assumptious, _Hilary_ was indeed an American man).
+Whether or not it was a major discovery, we realized that we have little to know knowledge of the philosophers of the 16th century (now, admittedly that is also a narrow field of interest), but something we would take a closer look at were we to dig deeper into this part of history would be the persons: Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus. We also came to realize that we have disproportionately little knowledge of our contemporary philosophers. Hilary Putnam, Jacques Derrida, Cornelius Castoriadis and Louis Althusser were all unfamiliar names to us, but are names we will bear in mind and study, whenever this exam period is over.
 
+Something that came across as quite surprising was the total absence of women in the among the most influential philosophers - not even in the more recent periods of history (we had a small glimpse of hope, when we saw the name _Hilary Putnam_ - but we were too assumptious, _Hilary_ was indeed an American man).
 
 Concluding on the discoveries, we have made a list of what we now know, we know too little of, __Further Reading__, for us to dig more into in the future.
 
+
 <h4 id="further_reading">Further Reading</h4>
 
+- Hugo Grotius
+- Christian Wolff
+- Edmund Husserl
+- 16th century philosophers, especially Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
+
 
 <h1 id="the_sentiment_of_philosophy_throughout_history">The Sentiment of Philosophy Throughout History</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -379,7 +397,7 @@ Before we began working on this project we had a theory: We assumed the sentimen
 We performed a _sentiment analysis_ on the philosophers of each of the historic periods and binned them to get a view of the sentiment distribution in general:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true)
-_Figure xx: Distribution of Sentiment Values_
+_Figure 4: Distribution of Sentiment Values_
 
 To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
 
@@ -414,7 +432,7 @@ The average sentiment value of the philosophers of the historic periods was larg
 One of the key aspect in this conclusion is the change in sentiment over time:
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentPlot3.png?raw=true)
-_Figure xx: Evolution in Sentiment of Philosophers (x-axis not to scale)_
+_Figure 5: Evolution in Sentiment of Philosophers (x-axis is to show the difference in the groups and does not scale with actual time)_
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
@@ -451,4 +469,5 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 [12] : [19th century](https://en.wikipedia.org/wiki/19th_century "19th_century's Wikipedia-page") <br>
 [13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
 [14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
+[15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
 
