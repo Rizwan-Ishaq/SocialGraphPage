@@ -26,6 +26,7 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Industrialization: Year 1800-1900__](#industrialization)
     - [__Beginning of Contemporary History: Year 1900-1950__](#beginning_of_contemporary_history)
     - [__Current Historic Period: Year 1950 until Now__](#current_historic_period)
+    - [__The Entire History of Philosophy: Pre-History - Now__](#the_entire_history_of_philosophy)
 - [__Concluding Remarks__](#concluding_remarks)
     - [__Interconnectedness__](#interconnectedness)
     - [__An Unexpected Bias__](#an_unexpected_bias)
@@ -33,7 +34,8 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Further Reading__](#further_reading)
 - [__The Sentiment of Philosophy Throughout History__](#the_sentiment_of_philosophy_throughout_history)
 - [__Achronological Communities__](#achronological_communities)
-
+- [__Extended Further Reading__](#extended_further_reading)
+- [__References__](#references)
 
 <h1 id="introduction">Introduction</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -322,12 +324,13 @@ Average in degree: 1.2135 <br>
 This was where my personal knowledge of contemporary philosophy was tested - I'm personally only familiar with Foucault.
 
 
+<h2 id="the_entire_history_of_philosophy">The Entire History of Philosophy: Pre-History - Now</h2> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/all_wikitexts.png?raw=true)
 _The most frequently occuring words throughout the texts of our people_
 
-
+Throughout the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/MasterGraph0.png?raw=true)
 _Network of the most influential Philosophers of all time_
@@ -354,7 +357,7 @@ The list of overall most influential individuals in the field of philosophy almo
 
 <h1 id="concluding_remarks">Concluding Remarks</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-Throughout the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
+Some interesting aspects of the data arises, when we take a closer look...
 
 <h3 id="scale_free_properties_of_the_network">Scale Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -451,6 +454,16 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 
 
 <h1 id="achronological_communities">Achronological Communities</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+
+
+<h4 id="extended_further_reading">Extended Further Reading</h4>
+
+- Hugo Grotius
+- Christian Wolff
+- Edmund Husserl
+- 16th century philosophers, especially Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus
+- Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
 
 
 
