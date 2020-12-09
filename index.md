@@ -466,14 +466,14 @@ If we were to conclude something with certainty, we would have had to compare ou
 
 Another potential topic for Version 2.0 would be to do the analysis on the works of the philosopher - instead of the texts about them, written mainly by people in the 21th century with an internet access. That would be interesting to analyze.
 
-We can safely say that we cannot prove of hypothesis, on the contrary the sentiment of the philosophers appears to be quite constant over time.
+We can safely say that we cannot prove of hypothesis, on the contrary the sentiment of the philosophers appears to be quite constant over time. We also made a sentiment analysis of the communities in the next section, but this only showed the same trend: no noticable change in sentiment, even among philosophers more closely associated with regards to influence (if this is of any interest feel free to check it out in the [_Explainer Notebook_](https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/notebook/)).
 
 
 <h1 id="achronological_communities">Achronological Communities</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 We analyzed our network to detect communities using the Louvain-algorithm. The algorithm is chosen because of is swiftness, being one of the swiftest ways to detect communities in a network. The algorithm works by optimizing _modularity_ which (in very short terms) is a measure of how well partioned a network is, i.e. how closely connected the partition of nodes are. Optimizing the modularity means finding the natural clusters or _communities_ in a network[[17, 18](#references)].
 
-The number of communties is not completely constant throughout iterations. It usually turns out to be $15 \pm 2$. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present six of the communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together and represent some trend in the philosophical world (if the process seems interesting, feel free to check out our _explainer notebook_ showing how the communities are detected).
+The number of communties is not completely constant throughout iterations. It usually turns out to be $15 \pm 2$. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present six of the communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together and represent some trend in the philosophical world (if the process seems interesting, feel free to check out our [_Explainer Notebook_](https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/notebook/) showing how the communities are detected).
 
 
 <h4 id="ac01">The Ancient Greek World</h4>
