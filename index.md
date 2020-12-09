@@ -42,10 +42,9 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__Eastern Philosophy__](#ac5)
     - [__The 20th Century__](#ac6)
     - [__Extended Further Reading__](#extended_further_reading)
+- [__The End__](#the_end)
 - [__List of Figures__](#list_of_figures)
 - [__References__](#references)
-
-
 
 
 <h1 id="introduction">Introduction</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -473,30 +472,39 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 
 We analyzed our network to detect communities using the Louvain-algorithm. The algorithm is chosen because of is swiftness, being one of the swiftest ways to detect communities in a network. The algorithm works by optimizing _modularity_ which (in very short terms) is a measure of how well partioned a network is, i.e. how closely connected the partition of nodes are. Optimizing the modularity means finding the natural clusters or _communities_ in a network[[17, 18](#references)].
 
-The number of communties is not completely constant throughout iterations. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present the most stable communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together.
+The number of communties is not completely constant throughout iterations. It usually turns out to be $15 \pm 2$. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present six of the communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together and represent some trend in the philosophical world (if the process seems interesting, feel free to check out our _explainer notebook_ showing how the communities are detected).
 
 
 <h4 id="ac01">The Ancient Greek World</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png)
+
+First of all we have a community in which a large part of the ancient greeks are represented. This was pretty much to be expected - they influenced one another, and being separated from the rest of the history by the Middle Ages, it makes a lot of sense for them to being a community in the network. Interestingly though, is it that Plato and Aristotle is not a part of this community.
 
 
 <h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png)
 
+Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history. 
 
 <h4 id="ac03">The Impact of Kant</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png)
 
 <h4 id="ac04">The Impact of Marx</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png)
 
 
 <h4 id="ac05">Eastern Philosophy</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png)
 
 
 Wittgenstein, Hume, Russell
 <h4 id="ac06">Something something</h4>
+
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png)
 
 
@@ -515,6 +523,8 @@ Apart from these communities, there are some small partitions of the network, wh
 - Edmund Husserl
 - 16th century philosophers, especially Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
+
+<h3 id="the_end">The End</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
 <h3 id="list_of_figures">List of Figures</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
@@ -548,8 +558,8 @@ Apart from these communities, there are some small partitions of the network, wh
 [13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
 [14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
 [15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
-[16] : [The Network Science Book](http://networksciencebook.com/chapter/4 "Network Science Book, Chapter 4") <br>
-[17] : [The Network Science Book, Ch.:9](http://networksciencebook.com/chapter/9 "Network Science Book, Chapter 4") <br>
+[16] : [The Network Science Book, Ch.:4](http://networksciencebook.com/chapter/4 "Network Science Book, Chapter 4") <br>
+[17] : [The Network Science Book, Ch.:9](http://networksciencebook.com/chapter/9 "Network Science Book, Chapter 9") <br>
 [18] : [Documentation on Community](https://python-louvain.readthedocs.io/en/latest/api.html
  "Community-module Documentation") <br>
 
