@@ -461,7 +461,43 @@ Another potential topic for Version 2.0 would be to do the analysis on the works
 We can safely say that we cannot prove of hypothesis, on the contrary the sentiment of the philosophers appears to be quite constant over time.
 
 
+
 <h1 id="achronological_communities">Achronological Communities</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+
+We analyzed our network to detect communities using the Louvain-algorithm. The algorithm is chosen because of is swiftness, being one of the swiftest ways to detect communities in a network. The algorithm works by optimizing _modularity_ which (in very short terms) is a measure of how well partioned a network is, i.e. how closely connected the partition of nodes are. Optimizing the modularity means finding the natural clusters or _communities_ in a network[[17, 18](#references)].
+
+The number of communties is not completely constant throughout iterations. This is probably due to some partitions being equally good, making the result of the modularity optimization ambiguous. We have chosen to present the most stable communities, the ones that are almost always (to the extend we have run the algorithm) are grouped together.
+
+
+<h4 id="ac01">The Ancient Greek World</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png)
+
+
+<h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png)
+
+
+<h4 id="ac03">The Impact of Kant</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png)
+
+<h4 id="ac04">The Impact of Marx</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png)
+
+
+<h4 id="ac05">Eastern Philosophy</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png)
+
+
+Wittgenstein, Hume, Russell
+<h4 id="ac06">Something something</h4>
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png)
+
+
+
+Apart from these communities, there are some small partitions of the network, which does fit neatly into the general trends of history. Some of the minor communities (often only consisting of two nodes), do show some close connections, for instance James Clerk Maxwell and Michael Faraday are (for what we know) always grouped in a community of just those two, which makes a lot of sense since they worked in the same rather narrow (compared to this list of philosphers) field of physics.
+
+
+
 
 
 
