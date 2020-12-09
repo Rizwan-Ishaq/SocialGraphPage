@@ -350,24 +350,22 @@ The top 10 of most influential philosophers throughout time are:
 
 Some of them come across quite clearly as huge planets in the universe of connections: Aristotle and Plato are the two large purple bulbs to the left (the network is designed to have people from way back in the past tend towards the right side, and people from the present tend toward the right). Kant and Marx are the large bulbs in the bottom of the network in green and yellow respectively.
 
-The list of overall most influential individuals in the field of philosophy almost looks like the result of a survey asking a number of people to name 15 philosophers they know. The list is like a Hall of Fame of philosophers. The only unexpected presences to us were William James, Sigmund Freud and Edmund Husserl. William James, we already earlier in the time line, had a great impact on the field of psychology and is regarded _The Father of American Psychology_[[14](#references)]. Sigmund Freud was unexpected - mainly because we did not realize how great an impact he had had on thinkers to succeed him, but he has without doubt been one of the most impactful people of his time. Edmund Husserl was not known to us. He was apparently the founder of the field of phenomenology[[14](#references)], which says something about our philosophic illiteracy.
+The list of overall most influential individuals in the field of philosophy almost looks like the result of a survey asking a number of people to name 15 philosophers they know. The list is like a Hall of Fame of philosophers. The only unexpected presences to us were William James, Sigmund Freud and Edmund Husserl. William James, we already earlier in the time line, had a great impact on the field of psychology and is regarded _The Father of American Psychology_[[14](#references)]. Sigmund Freud was unexpected - mainly because we did not realize how great an impact he had had on thinkers to succeed him, but he has without doubt been one of the most impactful people of his time. Edmund Husserl was not known to us. He was apparently the founder of the field of phenomenology[[15](#references)], which says something about our philosophic illiteracy.
 
 <h1 id="concluding_remarks">Concluding Remarks</h1> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
-Through the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
+Throughout the entire history (as far as this data set concerns us) philosophy has been closely associated with the movements of society both with regards to religion, state, science and political and economic issues. Whether ideas and thoughts are shaping the world around the thinkers, or whether the movements of history manifests itself as reflections of witted individuals, is most likely not the ideal question to ask; throughout history philosophers have (as we are about to see in the image just beneath this paragraph) influenced one another in a very non-linear way.
 
 <h3 id="scale_free_properties_of_the_network">Scale Free Properties of the Network</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free.png?raw=true)
+![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free_dir.png?raw=true)
 _Figure 2_
 
-The term scale-free
+Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_)
 
-The term “scale-free” is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s.
-
-[[16](#references)]
+There is indeed a linear tendency in the log-log-distribution of the degrees of the philosophers. This means the network likely has scale-free properties, which is an interesting aspect of network science. _"The term 'scale-free' is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s"_[[16](#references)].
 
 <h3 id="interconnectedness">Interconnectedness</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
@@ -445,7 +443,7 @@ _Figure 4: Evolution in Sentiment of Philosophers (x-axis is to show the differe
 
 Within that negligible change of 1.05 % one could argue that the sentiment appears to follow a pattern of a slight decline in sentiment value - with a dive around the years 1800-1900, but within this margin of error, this is likely rather hope than anything near a decent conclusion. The errorbars represent one standard deviation of the sentiment values of particular historic period. They look huge compared to the course of the sentiment, but bear in mind the scaling of the y-axis (to the left). The values are minute. Errorbars of this magnitude indicate a very uniform set of values. This is further certified by the very constant magnitude of the standard deviation - even with the very varying number in "sample size".
 
-If we were to conclude something with certainty, we would have had to compare our results from this sentiment analysis with a control group of (human) non-philosophers, ideally from the same time periods in history. That will have to be a topic for a Version 2.0 of this site (we did check the values of the Superheroes-Network from Assignment 2 to see, if we could use this as a control group, but our sentiment values didn't seem to differ significantly - if this was to indicate anything, it would be that the philosophers do not differ significantly with regards to sentiment ... from superheroes).
+If we were to conclude something with certainty, we would have had to compare our results from this sentiment analysis with a control group of (human) non-philosophers, ideally from the same time periods in history. That will have to be a topic for a Version 2.0 of this site (we did check the values of the Superheroes-Network from Assignment 2 to see, if we could use this as a control group, but our sentiment values didn't seem to differ significantly - if this was to indicate anything, it would be that the philosophers do not differ significantly with regards to sentiment ... from texts about superheroes).
 
 Another potential topic for Version 2.0 would be to do the analysis on the works of the philosopher - instead of the texts about them, written mainly by people in the 21th century with an internet access. That would be interesting to analyze.
 
@@ -479,5 +477,10 @@ We can safely say that we cannot prove of hypothesis, on the contrary the sentim
 [13] : [Existentialism](https://en.wikipedia.org/wiki/Existentialism "Existentialism's Wikipedia-page") <br>
 [14] : [William James](https://en.wikipedia.org/wiki/William_James "William James' Wikipedia-page") <br>
 [15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
-[15] : [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl "Edmund Husserl's Wikipedia-page") <br>
-[16] : [The Network Science Book](http://networksciencebook.com/chapter/4)
+[16] : [The Network Science Book](http://networksciencebook.com/chapter/4 "Network Science Book, Chapter 4")
+
+[17] : [The Network Science Book, Ch.:9](http://networksciencebook.com/chapter/9 "Network Science Book, Chapter 4")
+[18] : [Documentation on Community](https://python-louvain.readthedocs.io/en/latest/api.html
+ "Community-module Documentation")
+
+
