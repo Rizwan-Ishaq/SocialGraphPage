@@ -368,11 +368,11 @@ Some interesting aspects of the data arises, when we take a closer look...
 Something worth noticing is how the _degree_ (the number to the right of the names in the list, _(k)_) changes as we approach the less influential philosophers - and how the number of philosophers with a lower degree increases. This does indeed appear to be an exponential decline, which means the network of all the philosophers may have scale-free properties.
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/scale_free_dir.png?raw=true)
-_Figure 2: The Degree Distribution of the Entire Network on a log-log-scale_
+_Figure 2: The Out-Degree Distribution of the Entire Network on a log-log-scale_
 
-Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_)
+Here we have shown the distribution of out-degrees of the network on a _log-log_-scale, (since _"If a network is directed, the scale-free property applies separately to the in- and the out-degrees"_), and there is indeed a linear tendency in the log-log-distribution of the degrees of the philosophers. This means the network likely has scale-free properties, which is an interesting aspect of network science. _"The term 'scale-free' is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s"_[[16](#references)].
 
-There is indeed a linear tendency in the log-log-distribution of the degrees of the philosophers. This means the network likely has scale-free properties, which is an interesting aspect of network science. _"The term 'scale-free' is rooted in a branch of statistical physics called the Theory of Phase Transitions that extensively explored power laws in the 1960s and 1970s"_[[16](#references)].
+This could indicate
 
 <h3 id="interconnectedness">Interconnectedness</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
