@@ -88,15 +88,13 @@ As mentioned we will look at how, the philosophers have influenced one another t
 
 Without further ado, let's examine the history of philosophy:
 
-<h1 id="the_history_of_philosophy">The History of Philosophy</h1>
-[Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
+<h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Home](#home "Home")
 
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 
-<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2>
-[Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
+<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Home](#home "Home")
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
@@ -118,7 +116,7 @@ Most influential persons of the period:
 The number succeeding the name is the degree of the philosopher in this subsection of the whole network. As expected we see a very interwoven network of (predominantly Greek) philosophers with Plato and Aristotle - and Sokrates - as very influential figures.
 
 
-<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2> [Home](#home "Home")
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/0-500.png?raw=true)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
