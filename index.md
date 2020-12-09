@@ -40,7 +40,7 @@ Welcome to the culmination of what we have learned from the course Social Graphs
     - [__The Impact of Kant__](#ac3)
     - [__The Impact of Marx__](#ac4)
     - [__Eastern Philosophy__](#ac5)
-    - [__The 20th Century__](#ac6)
+    - [__A Community of Mystery__](#ac6)
     - [__Extended Further Reading__](#extended_further_reading)
 - [__The End__](#the_end)
 - [__List of Figures__](#list_of_figures)
@@ -505,21 +505,19 @@ _Network of the Philosophers ""_
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png)
 _Network of "Eastern Philosophy"_
 
+A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture.
 
 Wittgenstein, Hume, Russell
-<h4 id="ac06">Something something</h4>
+<h4 id="ac06">A Community of Mystery</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png)
-_Network of the Philosophers ""_
+_Network of the Philosophers Connected by "Mystery"_
 
 
 
-Apart from these communities, there are some small partitions of the network, which does fit neatly into the general trends of history. Some of the minor communities (often only consisting of two nodes), do show some close connections, for instance James Clerk Maxwell and Michael Faraday are (for what we know) always grouped in a community of just those two, which makes a lot of sense since they worked in the same rather narrow (compared to this list of philosphers) field of physics.
+Apart from these communities, there are some small partitions of the network, which does show some curious connections, but hardly make it as an actual network (often they only consisting of two nodes). Some of these minor communities, do show some close connections, for instance James Clerk Maxwell and Michael Faraday are (for what we know) always grouped in a community of just those two, which makes a lot of sense since they worked in the same rather narrow (compared to this list of philosphers) field of physics.
 
-
-
-
-
+These findings have made us extend our list of further reading:
 
 <h4 id="extended_further_reading">Extended Further Reading</h4>
 
