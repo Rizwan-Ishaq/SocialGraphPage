@@ -508,7 +508,8 @@ There is a general trend of the philosophers of this community being associated 
 
 <h4 id="ac05">Eastern Philosophy</h4>
 
-![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png) 
+<img src="https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png" width="800" />
+
 _Network of "Eastern Philosophy"_
 
 A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture. Apparently philosopher Alan Watts was very influenced by eastern ideas - we have only seen him being part of this community.
