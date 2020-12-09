@@ -425,7 +425,7 @@ We performed a _sentiment analysis_ on the philosophers of each of the historic 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SentimentHist.png?raw=true) <br>
 _Figure 5: Distribution of Sentiment Values_ <br>
 
-To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the _explainer notebook_).
+To our surprise the philosophers were in general more _happy_ than the average sentiment value of the reference list of words (this can be found in the [_explainer notebook_](https://github.com/Rizwan-Ishaq/SocialGraphPage/tree/master/notebook/)).
 
 The most _happy_:
 1. Ibn Bajjah           5.870000
