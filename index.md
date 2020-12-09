@@ -478,6 +478,7 @@ The number of communties is not completely constant throughout iterations. It us
 <h4 id="ac01">The Ancient Greek World</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_04.png)
+_Network of the Philosophers of the "The Ancient Greek World"_
 
 First of all we have a community in which a large part of the ancient greeks are represented. This was pretty much to be expected - they influenced one another, and being separated from the rest of the history by the Middle Ages, it makes a lot of sense for them to being a community in the network. Interestingly though, is it that Plato and Aristotle is not a part of this community.
 
@@ -485,27 +486,31 @@ First of all we have a community in which a large part of the ancient greeks are
 <h4 id="ac02">The Time-Transcending Influence of Plato and Aristotle</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_01.png)
+_Network of the Philosophers Subject to "The Time-Transcending Influence of Plato and Aristotle"_
 
-Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history. 
+Plato and Aristotle have had so much impact on subsequent thinkers that they - in terms of the Louvain-algorithm - are more a part of a community which spans over a way larger period of history, than the community of the ancient Greeks. The more you examine this group, the more diverse it seems. Apart from Plato and Aristotle claiming the majority of the spotlight, philosophers like Descartes, Hobbes, Aquinas, Francis Bacon - and Isaac Newton are in this community. One general denominator is that there are very few philosopher from past the 17th century - with a seemingly majority of philosophers from the Middle Ages (the two groups from the years 500 to 1500).
 
 <h4 id="ac03">The Impact of Kant</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png)
+_Network of the Philosophers ""_
 
 <h4 id="ac04">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png)
-
+_Network of the Philosophers ""_
 
 <h4 id="ac05">Eastern Philosophy</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png)
+_Network of "Eastern Philosophy"_
 
 
 Wittgenstein, Hume, Russell
 <h4 id="ac06">Something something</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png)
+_Network of the Philosophers ""_
 
 
 
@@ -526,6 +531,7 @@ Apart from these communities, there are some small partitions of the network, wh
 
 <h3 id="the_end">The End</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
+Thank you very much for joining us! We hope our page was informative - we certainly learned something.
 
 <h3 id="list_of_figures">List of Figures</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
