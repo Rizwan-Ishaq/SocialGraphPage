@@ -495,6 +495,8 @@ Plato and Aristotle have had so much impact on subsequent thinkers that they - i
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png) 
 _Network of the Philosophers "Impacted by Kant's Ideas"_
 
+As seen in this network Kant has had a great impact - but not only that: he seems especially to have had an impact on philosophers in the years to come. The network is mainly consists of people succeding Kant. This 
+
 <h4 id="ac04">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png) 
