@@ -102,7 +102,7 @@ We will use this color scheme to distinguish philosophers of different time peri
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/color_legend.png?raw=true) <br>
 _Figure 2: Color Scheme of the Networks of the Time Line_ <br>
 
-Some of the visualizations may come across as slightly chaotic, since many contemporary philosophers are often connected. Hopefully the depictions will at least serve as of the magnitude and trends of influence.
+Some of the visualizations may come across as slightly chaotic, since many contemporary philosophers are often connected. Hopefully the depictions will at least serve to give an idea of the magnitude and trends of influence.
 
 Without further ado, let's examine the history of philosophy:
 
