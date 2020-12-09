@@ -35,7 +35,7 @@ Welcome to the culmination of what we have learned from the course Social Graphs
 - [__Achronological Communities__](#achronological_communities)
 
 
-<h1 id="introduction">Introduction</h1>
+<h1 id="introduction">Introduction</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 We have chosen to dig into the vast world of great thinkers throughout history. Our motivation is to learn more about the thinkers and the ideas that have helped shape how the world and the cultures in it have evolved.
 
@@ -50,17 +50,17 @@ And then, to be frank, it would be quite awesome to discover highly influential/
 When analyzing the results, the terms _philosophers_, _thinkers_ and _people_ will be used interchangeably. When referring to _influential persons_ or anything regarding the _most influential_ or _most connected_ we refer specifically to the philosophers of our network.
 
 
-<h1 id="a_brief_discussion_of_the_data">A Brief Discussion of the Data</h1>
+<h1 id="a_brief_discussion_of_the_data">A Brief Discussion of the Data</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 Before we start, we present an elaboration on some of our thoughts about the data that has made the foundation for the analysis. If this seems tiresome, feel free to skip to main content, [__The History of Philosophy__](#the_history_of_philosophy) and if the historical context is of little interest, feel free to skip to [__Concluding Remarks__](#concluding_remarks).
 
 
-<h3 id="source_of_the_data">Source of the Data</h3>
+<h3 id="source_of_the_data">Source of the Data</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 To obtain data for this project this, we have relied on Wikipedia to provide a list with names. The names for out network originates from the four Wikipedia-lists of philosophers throughout history listed alphabetically[^xxx]. The lists are very inclusive. In the analysis we have encountered persons not usually associated (at least primarily) with philosophy. That be people more commonly associated with politics (Vladimir Lenin, Leon Trotsky, Benjamin Franklin), science (Isaac Newton, Hans Christian Ørsted, Nikolau Copernicus), psychology (Sigmund Freud, Carl Jung) and writing (Fyodor Dostoyevsky, Marcel Proust, C.S. Lewis). We have chosen to keep these people in the list - both because it, to us, show how the world history in intertwined among all different fields of human culture, thus making the analysis deprived, if we were to remove them, and also because the term "philosopher" is not necessarily a strictly defined term. If someone by their acts or writings have help spark new ideas or the mind of forthcoming people, is he or she not a philosopher? We are not the ones who are to settle that question. But we have chosen to regard every influential individual in the lists as a philosopher.
 
 
-<h3 id="convenient_binning_of_the_data">Convenient Binning of the Data</h3>
+<h3 id="convenient_binning_of_the_data">Convenient Binning of the Data</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 How to _bin_ the list of names is a topic that has spiked a lot of discussion - which we are to have a small taste of here:
 Ideally the binning would also encapsulate the movements of history; in an ideal scenario a bin would resemble of historic period to be analyzed solely. This would have to be combined with, ideally, having some evenly spaced intervals representing the entire data set. Unfortunately history is not always linear: some periods of history hardly has any known influential philosophers, some periods have plenty. In addition to the latter there is furthermore a very noticable skew in sheer number of philosophers towards our time. We assume the reason for this is based in two major factors that both have increased drastically throughout history: Access to knowledge/education and improved record keeping of history. That in itself would be subject for an entire thesis, which regarding this Project would be slightly off-topic, albeit very interesting.
@@ -82,19 +82,19 @@ _(1860-1788)/2 + 1788 = 1824_
 thus assigning him to the bin containing philosophers from year 1800 to 1900. We are well aware that this is a somewhat crude division, as some philosophers may have lived several decades in a different century than they were assigned, perhaps even producing some of their most influential works in that century. To cope with this, we have talked about having philosophers 
 
 
-<h3 id="network_analysis">Network Analysis</h3> 
+<h3 id="network_analysis">Network Analysis</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 As mentioned we will look at how, the philosophers have influenced one another throughout time. We will do this by first narrowing in on the philosophers of the _bins_ we have chosen, and look for both expected and surprising results of smaller networks. The nodes of the smaller networks are shown with the size correlated with their influence throughout all of history. To be able to plot the networks, we had to convert them from directed to undirected - for the same reason only a general average degree is shown. This is concluded by an analysis of the entire network of philosophers.
 
 Without further ado, let's examine the history of philosophy:
 
-<h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Home](#home "Home")
+<h1 id="the_history_of_philosophy">The History of Philosophy</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
 First we are to see, how the world of philosophy have evolved throughout history and who, have been the driving forces in this development - and whether we find, what we expect, or discover something new!
 
 
-<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Home](#home "Home")
+<h2 id="the_ancient_philosophers">The Ancient Philosophers: Year 1000 BC to Year 0 AD</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/-5000-0.png?raw=true)
 _Acting as a frame for our wordcloud: Parthenon_
@@ -116,7 +116,7 @@ Most influential persons of the period:
 The number succeeding the name is the degree of the philosopher in this subsection of the whole network. As expected we see a very interwoven network of (predominantly Greek) philosophers with Plato and Aristotle - and Sokrates - as very influential figures.
 
 
-<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2> [Home](#home "Home")
+<h2 id="age_of_the_roman_empire">Age of the Roman Empire: Year 0-500</h2> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/0-500.png?raw=true)
 _Acting as a frame for our wordcloud: Colosseum (in a more contemporary condition)_
@@ -384,7 +384,7 @@ _Figure xxx_
 <h1 id="achronological_communities">Achronological Communities</h1> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/# "Home")
 
 
-<h3 id="references">References</h3> [^](https://rizwan-ishaq.github.io/SocialGraphPage/#)
+<h3 id="references">References</h3> [Home](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
 
 [xxx] : 
