@@ -493,27 +493,26 @@ Plato and Aristotle have had so much impact on subsequent thinkers that they - i
 <h4 id="ac03">The Impact of Kant</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_03.png)
-_Network of the Philosophers ""_
+_Network of the Philosophers "Impacted by Kant's Ideas"_
 
 <h4 id="ac04">The Impact of Marx</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_06.png)
-_Network of the Philosophers ""_
+_Network of the Philosophers "Impacted by Marx' Ideas"_
 
 <h4 id="ac05">Eastern Philosophy</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_11.png)
 _Network of "Eastern Philosophy"_
 
-A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture.
+A community that seems to always be grouped together are the Chinese philosophers centered around Confucius. This of course makes a lot of sense, since these philosophers have had a different "real life community" both in terms of geography, language and culture. Apparently philosopher Alan Watts was very influenced by eastern ideas - we have only seen him being part of this community.
 
-Wittgenstein, Hume, Russell
 <h4 id="ac06">A Community of Mystery</h4>
 
 ![image](https://github.com/Rizwan-Ishaq/SocialGraphPage/blob/master/assets/SubgraphCommunity_05.png)
 _Network of the Philosophers Connected by "Mystery"_
 
-
+Now, this community - which is very persistent throughout the partitions made by the Louvain - is mainly made up of philosophers from 20th century and contains a great variety of well-known individuals. Wittgenstein, Hume, Russell, Gettier, Putnam and Frege are integral parts of this community. They likely share common ideas making this a - if not strictly labelled branch of philosophy (and we are not sure that it is not) - then an inherent network analysis-based branch of philosophy. We will get back to that in Version 2.0.
 
 Apart from these communities, there are some small partitions of the network, which does show some curious connections, but hardly make it as an actual network (often they only consisting of two nodes). Some of these minor communities, do show some close connections, for instance James Clerk Maxwell and Michael Faraday are (for what we know) always grouped in a community of just those two, which makes a lot of sense since they worked in the same rather narrow (compared to this list of philosphers) field of physics.
 
@@ -526,6 +525,8 @@ These findings have made us extend our list of further reading:
 - Edmund Husserl
 - 16th century philosophers, especially Francis Bacon, Pierre Charron, Michel de Montaigne and Paracelsus
 - Contemporary philosophy in general, especially Putnam, Derrida, Castoriadis and Althusser
+
+- What Wittgenstein, Hume, Russell, Schopenhauer, Putnam, Frege and Berkeley have in common
 
 <h3 id="the_end">The End</h3> [Top](https://rizwan-ishaq.github.io/SocialGraphPage/#)
 
